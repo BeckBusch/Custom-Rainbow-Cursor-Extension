@@ -11,7 +11,7 @@
   },
   
  "web_accessible_resources": [
-   "/cursors/cursor.png"
+   "/cursor.png"
   ],
  
 "content_scripts": [
