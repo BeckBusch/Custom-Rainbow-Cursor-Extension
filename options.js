@@ -26,3 +26,6 @@ function restore_options() {
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
     save_options);
+    
+    
+    if (chrome.storage.sync.favouriteCursor = red) {document.body.style.cursor = "url('http://i.imgur.com/YG5ximv.png'),auto";}
