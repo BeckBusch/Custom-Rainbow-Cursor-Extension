@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("rainbow").addEventListener("onclick", cake);
     document.getElementById("fish").addEventListener("click", select('fish'));
