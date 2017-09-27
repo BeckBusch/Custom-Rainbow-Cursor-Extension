@@ -1,3 +1,28 @@
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById("rainbow").addEventListener("onclick", select('rainbow'));
+    document.getElementById("fish").addEventListener("click", select('fish'));
+    document.getElementById("pokeball").addEventListener("click", select('pokeball'));
+    document.getElementById("stripe").addEventListener("click", select('stripe'));
+    document.getElementById("vader").addEventListener("click", select('vader'));
+    document.getElementById("saber").addEventListener("click", select('saber'));
+
+    document.getElementById("colors").addEventListener("click", select('colors'));
+    document.getElementById("other").addEventListener("click", select('other'));
+
+    document.getElementById("red").addEventListener("click", select('red'));
+    document.getElementById("orange").addEventListener("click", select('orange'));
+    document.getElementById("yellow").addEventListener("click", select('yellow'));
+    document.getElementById("lime").addEventListener("click", select('lime'));
+    document.getElementById("green").addEventListener("click", select('green'));
+    document.getElementById("teal").addEventListener("click", select('teal'));
+    document.getElementById("light_blue").addEventListener("click", select('light_blue'));
+    document.getElementById("blue").addEventListener("click", select('blue'));
+    document.getElementById("indigo").addEventListener("click", select('indigo'));
+    document.getElementById("purple").addEventListener("click", select('purple'));
+    document.getElementById("pink").addEventListener("click", select('pink'));
+    document.getElementById("magenta").addEventListener("onclick", select('magenta'));
+});
+
 
 
 function select(selection) {

@@ -1,3 +1,29 @@
+onclick="select('rainbow')"
+onclick="select('fish')"
+onclick="select('pokeball')"
+onclick="select('stripe')"
+onclick="select('vader')"
+onclick="select('saber')"
+onclick="select('colors')"
+onclick="select('other')"
+onclick="save_options()"
+onclick="select('red')"
+onclick="select('orange')"
+onclick="select('yellow')"
+onclick="select('lime')"
+onclick="select('green')"
+onclick="select('teal')"
+onclick="select('light_blue')"
+onclick="select('blue')"
+onclick="select('indigo')"
+onclick="select('purple')"
+onclick="select('pink')"
+onclick="select('magenta')"
+
+
+
+
+
 document.getElementById("rainbow").addEventListener(click, select('rainbow'), false);
 document.getElementById("fish").addEventListener(click, select('fish'), false);
 document.getElementById("pokeball").addEventListener(click, select('pokeball'), false);
