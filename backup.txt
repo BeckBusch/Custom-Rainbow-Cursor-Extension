@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <style>
+        .button {display: inline-block;}
+        body {background: radial-gradient(circle at center, #ff6649, #fffe6c);}
+        * {font-family: Verdana}
+    </style>
+</head>
+<body>
+
+<form action="javascript:select()">
+
+    <div class="button">
+        <img src="cursors/rainbow.png">
+        <p>Rainbow</p>
+        <input type="radio" name="selection" id="rainbow" onclick="hideCustom()" value="rainbow" checked>
+    </div>
+    <div class="button">
+        <img src="cursors/fish.png">
+        <p>Fish</p>
+        <input type="radio" name="selection" onclick="hideCustom()" id="fish" value="fish">
+    </div>
+    <div class="button">
+        <img src="cursors/pokeball.png">
+        <p>Pokeball</p>
+        <input type="radio" name="selection" id="pokeball" onclick="hideCustom()" value="pokeball">
+    </div>
+    <div class="button">
+        <p>Other</p>
+        <input type="radio" name="selection" id="other" value="other" onclick="showCustom()">
+    </div>
+
+    <div>
+        <input style="visibility: collapse;" type="text" placeholder="Paste link to image here" id="other_input" name="other">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+<h2>You have chosen:</h2>
+<h3 id="chosen"></h3>
+<img id="preview" style="display:block;" src="">
+<img id="previewLarge" src="">
+<script src="script.js"></script>
+</body>
+</html>
