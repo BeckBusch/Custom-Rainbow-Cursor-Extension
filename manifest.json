@@ -4,7 +4,6 @@
   "manifest_version": 2,
 
   "name": "Rainbow Cursor",
-  "options_page": "options.html",
   "description": "This extension changes your cursor to a rainbow one.",
   "version": "2.6.2",
 
@@ -14,13 +13,13 @@
   },
   
  "web_accessible_resources": [
-   "cursors"
+   "/cursor.png", "/pointer.png"
   ],
  
 "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["page.js"]
+      "css": ["cursor.css"]
     }
   ]
 }

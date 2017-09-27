@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("rainbow").addEventListener("onclick", cake);
     document.getElementById("fish").addEventListener("click", select('fish'));
@@ -26,13 +27,16 @@ document.addEventListener('DOMContentLoaded', function () {
 function cake(){
     alert('hi');
 }
+=======
+var selection = "rainbow";
+var custom = "";
+>>>>>>> parent of d9b20f4... this is pain
 
 function select(selection) {
-    chosen = selection;
     document.getElementById('chosen').innerText = selection;
     if ( (selection != 'other') && (selection != 'colors') ) {
-        document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
-        document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
+        document.body.style.cursor = "url(cursors/" + selection + ".png), auto";
+        document.getElementById('preview').src = "cursors/" +selection + ".png";
         document.getElementById('previewLarge').src = "images/" +selection + ".png";
     }
     else if (selection == 'other'){
@@ -66,9 +70,16 @@ function select(selection) {
     }
 }
 
-// Saves options to chrome.storage
-function save_options() {
-    chrome.storage.sync.set(
-        {option: chosen, external: custom}
-    );
+function saveChanges() {
+
+    // Check that there's some code there.
+    if (!selection) {
+        message('Error: No value specified');
+        return;
+    }
+    // Save it using the Chrome extension storage API.
+    chrome.storage.sync.set({'value': theValue}, function() {
+        // Notify that we saved.
+        message('Settings saved');
+    });
 }
