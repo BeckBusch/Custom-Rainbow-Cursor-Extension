@@ -1,2 +1,3 @@
 # Custom-Cursor-Extension
-Custom/Rainbow Cursor extension
+Custom/Rainbow Cursor extension  
+check
