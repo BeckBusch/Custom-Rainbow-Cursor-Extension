@@ -1,0 +1,11 @@
+* {
+    cursor: url('chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/cursor.png'),auto;
+}
+
+a:hover {
+    cursor: url('chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/pointer.png'),auto;
+}
+
+a *:hover {
+    cursor: url('chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/pointer.png'), auto !important;
+}
