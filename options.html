@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <style>
+        .button {display: inline-block;}
+        body {background: radial-gradient(circle at center, #ff6649, #fffe6c);}
+        * {font-family: Verdana, Geneva, sans-serif;}
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/rainbow.png">
+            <br>
+            <button onclick="select('rainbow')">Rainbow</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/fish.png">
+            <br>
+            <button onclick="select('fish')">Fish</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/pokeball.png">
+            <br>
+            <button onclick="select('pokeball')">Pokeball</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/stripe.png">
+            <br>
+            <button onclick="select('stripe')">stripe</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/vader.png">
+            <br>
+            <button onclick="select('vader')">Darth<br>Vader</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="cursors/arrows/saber.png">
+            <br>
+            <button onclick="select('saber')">Lightsaber</button>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="resources/colors.png">
+            <br>
+            <button onclick="select('colors')">Colors</button>
+        </td>
+        <td style="text-align: center;">
+            <img src="resources/other.png">
+            <br>
+            <button onclick="select('other')">Other</button>
+        </td>
+        <td colspan="3">
+            <input  type="text" placeholder="Paste link to image here" id="other_input" name="other">
+        </td>
+        <td>
+            <button onclick="save_options()">Save<br>Changes</button>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/red.png">
+            <br>
+            <button onclick="select('red')">red</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/orange.png">
+            <br>
+            <button onclick="select('orange')">orange</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/yellow.png">
+            <br>
+            <button onclick="select('yellow')">yellow</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/lime.png">
+            <br>
+            <button onclick="select('lime')">lime</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/green.png">
+            <br>
+            <button onclick="select('green')">green</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/teal.png">
+            <br>
+            <button onclick="select('teal')">teal</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/light_blue.png">
+            <br>
+            <button onclick="select('light_blue')">light_blue</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/blue.png">
+            <br>
+            <button onclick="select('blue')">blue</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/indigo.png">
+            <br>
+            <button onclick="select('indigo')">indigo</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/purple.png">
+            <br>
+            <button onclick="select('purple')">purple</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/pink.png">
+            <br>
+            <button onclick="select('pink')">pink</button>
+        </td>
+        <td style="text-align: center; visibility: hidden;" class="colours">
+            <img src="cursors/arrows/magenta.png">
+            <br>
+            <button onclick="select('magenta')">magenta</button>
+        </td>
+    </tr>
+</table>
+<!--<form action="">
+    <fieldset>
+        <legend>Settings</legend>
+        <input type="checkbox" name="vehicle1" value="Bike">
+        Don't preview selected cursors on this page.
+        <br>
+        <input type="checkbox" name="vehicle2" value="Car">
+        Disable warning for images over 32x32.
+        <br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>-->
+
+
+<h2>You have chosen:</h2>
+<h3 id="chosen"></h3>
+<img id="preview" style="display:block;" src="">
+<img id="previewLarge" src="">
+<script src="script.js"></script>
+</body>
+</html>

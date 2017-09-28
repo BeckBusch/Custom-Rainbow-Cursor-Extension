@@ -1,0 +1,71 @@
+var selection = "rainbow";
+var custom = "";
+check = false;
+function showCustom() {
+    document.getElementById("other_input").style.visibility = "initial";
+}
+function hideCustom() {
+    document.getElementById("other_input").style.visibility = "collapse";
+}
+
+function select() {
+    if (document.getElementById('fish').checked) {
+        selection = "fish";
+    }
+    else if (document.getElementById('rainbow').checked) {
+        selection = "rainbow";
+    }
+    else if (document.getElementById('pokeball').checked) {
+        selection = "pokeball";
+    }
+    else if (document.getElementById('other').checked) {
+        selection = 'other';
+        custom = (document.getElementById('other_input').value);
+    }
+
+    document.getElementById('chosen').innerText = selection;
+
+
+    if (selection == 'other') {
+        document.getElementById('previewLarge').src = "";
+        document.getElementById('preview').style.visibility = "none";
+        document.getElementById('preview').src = custom;
+        var img = document.getElementById('preview');
+        var imgWide = img.naturalWidth;
+        var imgHigh = img.naturalHeight;
+        if (imgWide > 32) {check = true}
+        if (imgHigh > 32) {check = true}
+        if (check == true) {
+            var ok = confirm("Warning: Your custom image is larger that 32 pixels. This may not look good as a cursor.");
+            if (ok == true) {
+                document.body.style.cursor = "url(" + custom + "), auto";
+                document.getElementById('preview').style.visibility = "initial";
+            }
+            else {
+                document.getElementById('preview').src = "";
+                document.getElementById('preview').style.visibility = "initial";
+            }
+        };
+        check = false
+
+    }
+    else {
+        document.body.style.cursor = "url(cursors/" + selection + ".png), auto";
+        document.getElementById('preview').src = "cursors/" +selection + ".png";
+        document.getElementById('previewLarge').src = "images/" +selection + ".png";
+    }
+}
+
+function saveChanges() {
+
+    // Check that there's some code there.
+    if (!selection) {
+        message('Error: No value specified');
+        return;
+    }
+    // Save it using the Chrome extension storage API.
+    chrome.storage.sync.set({'value': theValue}, function() {
+        // Notify that we saved.
+        message('Settings saved');
+    });
+}
