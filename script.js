@@ -1,9 +1,16 @@
+custom = "";
 
+buts = document.getElementsByTagName('button');
+for (i=0; i < buts.length; i ++){
+    document.getElementById(buts[i].id).addEventListener('click', select)
+}
+document.getElementById('save').removeEventListener('click', select);
+document.getElementById('save').addEventListener('click', saveOptions);
 
-function select(selection) {
-    chosen = selection;
+function select() {
+    selection = this.id;
     document.getElementById('chosen').innerText = selection;
-    if ( (selection != 'other') && (selection != 'colors') ) {
+    if ( (selection != 'other') && (selection != 'colors') && (selection != 'save') ) {
         document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
         document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
         document.getElementById('previewLarge').src = "images/" +selection + ".png";
@@ -11,7 +18,6 @@ function select(selection) {
     else if (selection == 'other'){
         custom = (document.getElementById('other_input').value);
         document.getElementById('previewLarge').src = "";
-        document.getElementById('preview').style.visibility = "none";
         document.getElementById('preview').src = custom;
         var img = document.getElementById('preview');
         var imgWide = img.naturalWidth;
@@ -39,9 +45,6 @@ function select(selection) {
     }
 }
 
-// Saves options to chrome.storage
-function save_options() {
-    chrome.storage.sync.set(
-        {option: chosen, external: custom}
-    );
+function saveOptions(){
+    chrome.storage.sync.set({"option": selection, "link": custom}, function() {console.log('Saved', "option", selection, "link", custom);});
 }
