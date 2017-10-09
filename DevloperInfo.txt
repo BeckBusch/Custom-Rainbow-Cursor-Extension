@@ -1,0 +1,11 @@
+manifest.json
+
+
+options.html and script.js
+runs the options menu where the user selects the cursor
+
+page.js
+runs the cursor change on each page the user visits
+
+EventPage.js
+background script for assisting the user with install
