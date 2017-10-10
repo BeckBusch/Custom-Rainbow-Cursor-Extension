@@ -6,7 +6,7 @@
   "name": "Custom Cursor",
   "options_page": "options.html",
   "description": "This extension changes your cursor to anything you want!",
-  "version": "3.0.0",
+  "version": "3.1.0",
 
   "permissions": [
     "storage"
