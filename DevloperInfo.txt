@@ -1,11 +1,28 @@
 manifest.json
+An extensions manifest declears permissions and information that the chrome browser needs to run the extension
 
-
-options.html and script.js
+options.html and optionScript.js
 runs the options menu where the user selects the cursor
 
-page.js
-runs the cursor change on each page the user visits
+popup.html and popup,js
+run the small popup menu to allow for easy changing of the options
 
-EventPage.js
+page.js
+This is the code that runs on the webpage and actually changes the cursor
+
+eventPage.js
 background script for assisting the user with install
+
+DevloperInfo.txt
+
+
+/backups
+
+
+/cursors
+
+
+/images
+
+
+/resources

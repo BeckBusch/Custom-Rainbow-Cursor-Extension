@@ -1,3 +1,5 @@
+var imgURL = chrome.runtime.getURL("cursors/");
+
 chrome.storage.sync.get('option', function (obj) {
 
     if (obj['option'] == "other") {
@@ -6,6 +8,7 @@ chrome.storage.sync.get('option', function (obj) {
         });
     }
     else {
-        document.body.style.cursor = "url(chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/cursors/arrows/" + obj['option'] + ".png), auto";
+
+        document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
     }
 });

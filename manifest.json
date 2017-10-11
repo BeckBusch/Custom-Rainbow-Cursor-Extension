@@ -6,7 +6,13 @@
   "name": "Custom Cursor",
   "options_page": "options.html",
   "description": "This extension changes your cursor to anything you want!",
-  "version": "3.1.0",
+  "version": "3.2.0",
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true,
+    "open_in_tab": true
+  },
 
   "permissions": [
     "storage"
@@ -19,6 +25,7 @@
 
   "browser_action": {
     "default_icon": "icon.png",
+    "default_popup": "popup.html",
     "default_title": "Cursor Change"
   },
   
