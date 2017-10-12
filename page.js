@@ -10,5 +10,9 @@ chrome.storage.sync.get('option', function (obj) {
     else {
 
         document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
+        var items = document.getElementsByTagName("a");
+        for (var i = 0; i < items.length; i++) {
+            items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
+        }
     }
 });
