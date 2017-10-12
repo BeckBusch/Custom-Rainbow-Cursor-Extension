@@ -7,6 +7,7 @@
   "options_page": "options.html",
   "description": "This extension changes your cursor to anything you want!",
   "version": "3.2.0",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 
   "options_ui": {
     "page": "options.html",

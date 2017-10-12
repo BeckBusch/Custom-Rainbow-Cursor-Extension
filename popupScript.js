@@ -1,3 +1,13 @@
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-98900189-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
 custom = "";
 
 buts = document.getElementsByTagName('button');
@@ -44,5 +54,6 @@ function select() {
 }
 
 function saveOptions(){
+    _gaq.push(['_trackEvent', selection, 'clicked']);
     chrome.storage.sync.set({"option": selection, "link": custom}, function() {console.log('Saved', "option", selection, "link", custom);});
 }
