@@ -19,3 +19,17 @@ document.getElementById("purple").addEventListener(click, select('purple'), fals
 document.getElementById("pink").addEventListener(click, select('pink'), false);
 document.getElementById("magenta").addEventListener(click, select('magenta'), false);
 document.getElementById("save_options").addEventListener(click, save_options, faLse);
+
+
+<!--<form action="">
+    <fieldset>
+        <legend>Settings</legend>
+        <input type="checkbox" name="vehicle1" value="Bike">
+        Don't preview selected cursors on this page.
+        <br>
+        <input type="checkbox" name="vehicle2" value="Car">
+        Disable warning for images over 32x32.
+        <br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>-->
