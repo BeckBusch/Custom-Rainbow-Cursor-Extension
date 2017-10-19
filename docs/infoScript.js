@@ -49,7 +49,7 @@ alert("Welcome new user\nPlease use this page to learn about the extension");
 }
 else if (type == "update") {
     document.getElementById('up').innerText = "!!Update Log!!";
-    alert("Welcome back\nThe extension has been updated\nYou can use this page to learn about the changes that have been made");
+    alert("Happy Halloween and welcome back to a spooky Halloween update!\nYou can learn more about the update in the update log.\nBeware of the Halloween cursor...");
 
 };
 

@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Options</title>
-    <style>
-        .button {
-            display: inline-block;
-        }
-        body {
-            background: linear-gradient(to bottom right, #77c9da, #57bc90);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        * {
-            font-family: Verdana, Geneva, sans-serif;
-            color: #313131;
-        }
-    </style>
-</head>
-<!-- http://beckbuschgithub.sytes.net/Custom-Rainbow-Cursor-Extension/ blue #77c9da  light green #57bc90  drak green #015249  grey #a5a5af-->
-<body>
-<div id="help" style="position:absolute; left: 50%;">
-    <fieldset>
-        <legend>Important</legend>
-        To use this feature, first find an image that is smaller that 128x128 pixles. I suggest using Google Images and setting the "size" option to icon.
-        Click on the image and the click "View Image".
-        <button id="helpBut">Hide Help</button>
-    </fieldset>
-    <img src="resources/custom%20help.png">
-    <img src="resources/help2.png">
-</div>
+
+
 <div>
     <output id="result" name="result"></output>
 </div>
@@ -92,11 +62,6 @@
             <br>
             <button id="acorn">Acorn</button>
         </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/hallo.png">
-            <br>
-            <button id="hallo">Halloween</button>
-        </td>
     </tr>
     <tr>
         <td style="text-align: center;">
@@ -117,64 +82,64 @@
         </td>
     </tr>
     <tr>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/red.png">
             <br>
             <button id="red">red</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/yellow.png">
             <br>
             <button id="yellow">yellow</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/green.png">
             <br>
             <button id="green">green</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/light_blue.png">
             <br>
             <button id="light_blue">light_blue</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/indigo.png">
             <br>
             <button id="indigo">indigo</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/pink.png">
             <br>
             <button id="pink">pink</button>
         </td>
     </tr>
     <tr>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/orange.png">
             <br>
             <button id="orange">orange</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/lime.png">
             <br>
             <button id="lime">lime</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/teal.png">
             <br>
             <button id="teal">teal</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/blue.png">
             <br>
             <button id="blue">blue</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/purple.png">
             <br>
             <button id="purple">purple</button>
         </td>
-        <td style="text-align: center; visibility: hidden;" class="colours">
+        <td style="text-align: center; display: none;" class="colours">
             <img src="cursors/arrows/magenta.png">
             <br>
             <button id="magenta">magenta</button>
@@ -182,12 +147,7 @@
     </tr>
 </table>
 
-
-
-<h2>You have chosen:</h2>
-<h3 id="chosen"></h3>
-<img id="preview" style="display:block;" src="">
-<img id="previewLarge" src="">
-<script src="optionScript.js"></script>
-</body>
-</html>
+<h2 class="demoing">You have chosen:&nbsp&nbsp&nbsp</h2>
+<h3 class="demoing" id="chosen"></h3>
+<h3 class="demoing">&nbsp&nbsp&nbsp</h3>
+<img class="demoing" id="preview" src="">

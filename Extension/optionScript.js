@@ -18,6 +18,12 @@ for (i=0; i < buts.length; i ++){
 }
 document.getElementById('save').removeEventListener('click', select);
 document.getElementById('save').addEventListener('click', saveOptions);
+document.getElementById("helpBut").removeEventListener('click', select);
+document.getElementById("helpBut").addEventListener('click', hideHelp);
+
+function hideHelp(){
+    document.getElementById("help").style.display = "none";
+}
 
 function select() {
     selection = this.id;

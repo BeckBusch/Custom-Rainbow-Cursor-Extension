@@ -6,7 +6,7 @@
   "name": "Custom Cursor",
   "options_page": "options.html",
   "description": "This extension changes your cursor to anything you want!",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 
   "options_ui": {
@@ -15,9 +15,14 @@
     "open_in_tab": true
   },
 
+  "icons": { "16": "resources/icon16.png",
+    "48": "resources/icon48.png",
+    "128": "resources/icon128.png" },
+
   "permissions": [
-    "storage"
+    "storage", "clipboardRead", "http://beckbuschgithub.sytes.net/"
   ],
+  "homepage_url": "http://beckbuschgithub.sytes.net/Custom-Rainbow-Cursor-Extension/",
 
   "background": {
     "scripts": ["eventPage.js"],

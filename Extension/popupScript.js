@@ -1,3 +1,4 @@
+//google analyitics start
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-98900189-2']);
 _gaq.push(['_trackPageview']);
@@ -7,19 +8,103 @@ _gaq.push(['_trackPageview']);
     ga.src = 'https://ssl.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+//google analyitics end
 
+//varibles start
 custom = "";
-
+var urlRows = document.getElementsByClassName('url');
+var cursorsRows = document.getElementsByClassName('cursors');
+var moreRows = document.getElementsByClassName('more');
 buts = document.getElementsByTagName('button');
+chosen = document.getElementsByClassName('chosen');
+
+//varibles end
+
+//eventlisners start
+//class
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select)
-}
+    }
+//id
+document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById('save').removeEventListener('click', select);
 document.getElementById('save').addEventListener('click', saveOptions);
+document.getElementById('URL').removeEventListener('click', select);
+document.getElementById('URL').addEventListener('click', urlAppear);
+document.getElementById('cursor').removeEventListener('click', select);
+document.getElementById('cursor').addEventListener('click', cursorAppear);
+document.getElementById('more').removeEventListener('click', select);
+document.getElementById('more').addEventListener('click', more);
+
+
+
+//eventlisners end
+
+//on load start
+document.addEventListener('DOMContentLoaded', function() {
+    for (i=0; i < urlRows.length; i++){
+        urlRows[i].style.display = "none";
+    }
+    for (i=0; i < moreRows.length; i++){
+        moreRows[i].style.display = "none";
+    }
+}, false);
+//on load end
+
+
+//functions start
+function informationLink (){
+    parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
+}
+
+function more(){
+    document.getElementById('prev').style.display = "table-row";
+
+    for (i=0; i < urlRows.length; i++){
+        urlRows[i].style.display = "none";
+    }
+
+    for (i=0; i < cursorsRows.length; i++) {
+        cursorsRows[i].style.display = "none";
+    }
+
+    for (i=0; i < moreRows.length; i++){
+        moreRows[i].style.display = "table-row";
+    }
+}
+
+function cursorAppear (){
+    document.getElementById('prev').style.display = "table-row";
+
+    for (i=0; i < moreRows.length; i++){
+        moreRows[i].style.display = "none";
+    }
+    for (i=0; i < urlRows.length; i++){
+        urlRows[i].style.display = "none";
+    }
+    for (i=0; i < cursorsRows.length; i++){
+        cursorsRows[i].style.display = "table-row";
+    }
+}
+
+function urlAppear(){
+    document.getElementById('prev').style.display = "none";
+
+    for (i=0; i < moreRows.length; i++){
+        moreRows[i].style.display = "none";
+    }
+    for (i=0; i < cursorsRows.length; i++){
+        cursorsRows[i].style.display = "none";
+    }
+
+    for (i=0; i < urlRows.length; i++){
+        urlRows[i].style.display = "table-row";
+    }
+}
 
 function select() {
     selection = this.id;
-    document.getElementById('chosen').innerText = selection;
+document.getElementById("chosen").innerText = selection;
     if ( (selection != 'other') && (selection != 'colors') && (selection != 'save') ) {
         document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
         document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
@@ -45,20 +130,14 @@ function select() {
             document.body.style.cursor = "url(" + custom + "), auto";
         }
     }
-    else if (selection == 'colors'){
-        colClass = document.getElementsByClassName('colours');
-        for (i = 0; i < colClass.length; i++){
-            colClass[i].style.display = "table-cell";
-        }
-    }
 }
 
-function saveOptions(){
+function saveOptions() {
     _gaq.push(['_trackEvent', selection, 'clicked']);
 
     chrome.storage.sync.set(
-        {"option": selection, "link": custom}, function() {
-            document.getElementById("result").value = "Saved Option as: " + selection + " and Link as: " + custom;
+        {"option": selection, "link": custom}, function () {
+            document.getElementById("result").value = "Saved Option as: " + selection;
 
         });
 }
