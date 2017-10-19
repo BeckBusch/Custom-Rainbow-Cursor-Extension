@@ -48,6 +48,8 @@ if (type == "install") {
 alert("Welcome new user\nPlease use this page to learn about the extension");
 }
 else if (type == "update") {
-alert("Welcome back\nThe extension has been updated\nYou can use this page to learn about the changes that have been made");
+    document.getElementById('up').innerText = "!!Update Log!!";
+    alert("Welcome back\nThe extension has been updated\nYou can use this page to learn about the changes that have been made");
+
 };
 

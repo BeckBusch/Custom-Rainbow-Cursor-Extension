@@ -16,9 +16,10 @@
     </script>
     <meta charset="UTF-8">
     <title>Custom Cursor</title>
-    <link type="text/css" href="info.css" rel="stylesheet"></link>
-    <link type="text/css" href="animate.css" rel="stylesheet"></link>
-    <script src="infoScript.js"></script>
+    <link type="text/css" href="info.css" rel="stylesheet">
+    <link type="text/css" href="animate.css" rel="stylesheet">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/iclinnjcnpihmbogglkigdkhkeajbcck">
+
 </head>
 <!-- blue #77c9da  light green #57bc90  drak green #015249  grey #a5a5af-->
 <body style="text-align:center;">
@@ -29,17 +30,21 @@
             <a onclick="home()">Home</a>
         </li>
         <li>
-            <a onclick="update()">Update Log</a>
+            <a onclick="update()" id="up">Update Log</a>
         </li>
         <li>
             <a onclick="gallery()">Gallery</a>
         </li>
+        <li id="install-button">
+        <a onclick="chrome.webstore.install()">Install<br>Extension</a>
+        </li>
+
         <li>
             <a onclick="contact()">Contact</a>
         </li>
         <li>
             <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23">
-                Send Support Email
+                Send<br>Support<br>Email
             </a>
         </li>
         <li>
@@ -326,5 +331,6 @@
     <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23">Send Support Email</a>
     <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Request&body=**This%20is%20only%20a%20template!%20Please%20replace%20this%20text%20with%20your%20request.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20orginistaion%23%23%0A%23%23%20Type%3DR3Qu35tS%20%23%23">Request Feature or New Cursor</a>
 </footer>
+<script src="infoScript.js"></script>
 </body>
 </html>

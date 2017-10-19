@@ -84,6 +84,7 @@ nav ul {
 }
 
 nav ul li {
+    vertical-align: middle;
     display: inline-block;
 }
 
