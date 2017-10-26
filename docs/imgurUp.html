@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imgur Hosting</title>
+    <link href="imgur.min.css" rel="stylesheet" media="screen">
+
+
+
+</head>
+<body>
+<div id="top">
+<h1>Imgur Image Uploader</h1>
+    <h4>This page uses the Imgur javascript api to upload images, allowing you to use any image from your computer as a cursor.</h4>
+    <h4>Images MUST be 128x128 pixels or smaller. At this stage, the code does not check for this! Do it yourself or it will not work
+        <!doctype html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Document</title>
+        </head>
+        <body>
+        
+        </body>
+        </html></h4>
+    <h3>I did not make this. All the credit goes to <a href="https://github.com/pinceladasdaweb/imgur">pinceladasdaweb</a>.</h3>
+</div>
+<div class="dropzone"></div>
+<p>Copy the link below to use as a url.</p>
+<output id="outputImg" style="display: block;"></output>
+<img id="uploadedImg" src="">
+<script src="imgur.min.js"></script>
+<script>
+    var callback = function (res) {
+        if (res.success === true) {
+            document.getElementById("uploadedImg").src =  res.data.link;
+            document.getElementById("outputImg").value = res.data.link;
+        }
+    };
+
+    new Imgur({
+        clientid: '99e37feb94575c7',
+        callback: callback
+    });
+</script>
+
+</body>
+</html>
