@@ -1,208 +1,313 @@
 <!DOCTYPE html>
-<html lang="en" style="width: 350px; height: 450px;">
+<html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Popup</title>
-    <style>
-    </style>
-    <link href="popup.css" rel="stylesheet" type="text/css">
-    <link href="animate.css" rel="stylesheet" type="text/css">
+    <title>Options</title>
+
+    <link rel="stylesheet" href="resources/icon.css">
+    <link rel="stylesheet" href="resources/material.teal-blue.min.css">
+    <script defer src="resources/material.min.js"></script>
+
 </head>
-<!-- blue #77c9da  light green #57bc90  drak green #015249  grey #a5a5af-->
-<body>
-<table id="new">
-    <tr>
-        <td colspan="4">
-            <a id="infoLink" style="font-size: medium; cursor:pointer; text-decoration: underline">Information Site</a>
-            <output id="result"></output>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <button id="cursor" class="contactButtons">Cursors</button>
-        </td>
-        <td>
-            <button class="contactButtons" id="URL">URL</button>
-        </td>
-        <td>
-            <button class="contactButtons" id="save">Save</button>
+<body style="width:475px; display: inline-flex;">
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Options</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens.  !hiding in small screens has been removed -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="cursor">Cursors</a>
+                <a class="mdl-navigation__link" id="URL">URL</a>
+                <a class="mdl-navigation__link save" style="background-color: rgb(68,138,255)"><i class="material-icons">save</i></a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+        <nav class="mdl-navigation">
+            <a id="infoLink" class="mdl-navigation__link" href="">Information</a>
+            <a class="mdl-navigation__link" id="upLink" href="">Imgur Upload</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <div><output id="result" name="result"></output></div>
 
-        </td>
-        <td>
-            <button class="contactButtons" id="more">More<br>Cursors</button>
-        </td>
-    </tr>
+            <table>
 
-    <tr class="cursors animated slideInRight">
-        <td style="text-align: center;">
-            <img src="cursors/arrows/light-darkblue.png">
-            <br>
-            <button id="light-darkblue">Blue<br>Gradient</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/pink-gradient.png">
-            <br>
-            <button id="pink-gradient">Pink<br>Gradient</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/green-graident.png">
-            <br>
-            <button id="green-graident">Green<br>Graident</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/violet-red.png">
-            <br>
-            <button id="violet-red">Violet to<br>Red</button>
-        </td>
-    </tr>
-    <tr class="cursors animated slideInRight">
-        <td style="text-align: center;">
-            <img src="cursors/arrows/rainbow.png">
-            <br>
-            <button type="button" id="rainbow">Rainbow</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/fish.png">
-            <br>
-            <button id="fish">Fish</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/hallo.png">
-            <br>
-            <button id="hallo">Halloween</button>
-        </td>
-        <td style="text-align: center;">
-        <img src="cursors/arrows/acorn.png">
-        <br>
-        <button id="acorn">Acorn</button>
-    </td>
+                <tbody id="contentCur">
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/light-darkblue.png">
+                        <br>
+                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                id="light-darkblue">Blue
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/pink-gradient.png">
+                        <br>
+                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                id="pink-gradient">Pink
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/green-graident.png">
+                        <br>
+                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                id="green-graident">Green
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/violet-red.png">
+                        <br>
+                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                id="violet-red">Hue
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/rainbow.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                type="button" id="rainbow">Rainbow
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/fish.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="fish">Fish
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/hallo.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="hallo">Halloween
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/acorn.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="acorn">Acorn
+                        </button>
+                    </td>
 
-    </tr>
-    <tr class="cursors animated slideInRight">
-        <td style="text-align: center;">
-            <img src="cursors/arrows/stripe.png">
-            <br>
-            <button id="stripe">stripe</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/pokeball.png">
-            <br>
-            <button id="pokeball">Pokeball</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/vader.png">
-            <br>
-            <button id="vader">Darth<br>Vader</button>
-        </td>
-        <td style="text-align: center;">
-            <img src="cursors/arrows/saber.png">
-            <br>
-            <button id="saber">Lightsaber</button>
-        </td>
-    </tr>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/stripe.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="stripe">stripe
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/pokeball.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="pokeball">Pokeball
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/vader.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="vader">Darth<br>Vader
+                        </button>
+                    </td>
+                    <td style="text-align: center;">
+                        <img src="cursors/arrows/saber.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="saber">Lightsaber
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+
+                <tbody id="contentCol">
+                <tr>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/red.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="red">red
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/orange.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="orange">orange
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/yellow.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="yellow">yellow
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/lime.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="lime">lime
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/green.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="green">green
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/teal.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="teal">teal
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/light_blue.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="light_blue">light_blue
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/blue.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="blue">blue
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/indigo.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="indigo">indigo
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/purple.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="purple">purple
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/pink.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="pink">pink
+                        </button>
+                    </td>
+                    <td style="text-align: center;" class="colours">
+                        <img src="cursors/arrows/magenta.png">
+                        <br>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                id="magenta">magenta
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+                <tbody id="changeButs">
+                <tr>
+                    <td>
+                        <!-- Colored FAB button with ripple -->
+                        <button id="main"
+                                class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                            <i class="material-icons">home</i>
+                        </button>
+                    </td>
+                    <td>
+                        <!-- Colored FAB button with ripple -->
+                        <button
+                                class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-button--primary save">
+                            <i class="material-icons">save</i>
+                        </button>
+                    </td>
+                    <td>
+                        <!-- Colored FAB button with ripple -->
+                        <button
+                                class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="more">
+                            <i class="material-icons">add</i>
+                        </button>
+                    </td>
+                    <td>
+                        <!-- Colored FAB button with ripple -->
+                        <button id="cols"
+                                class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                            <i class="material-icons">color_lens</i>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
 
 
-    <tr class="url animated slideInRight">
-        <td colspan="4">
-            <button id="other">Submit Image URL</button>
-        </td>
-    </tr>
-    <tr class="url animated slideInRight">
-        <td colspan="4">
-            <textarea placeholder="Paste link to image here" id="other_input" name="other" rows="5" cols="38"></textarea>
-        </td>
-    </tr>
-    <tr class="url animated slideInRight">
-        <td colspan="4">
-                <fieldset>
-                    <legend>Important</legend>
+                <tbody id="contentUrl">
+                <tr>
+                    <td colspan="1">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="other">
+                            Submit Image
+                        </button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect save">
+                            Save
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+            <textarea placeholder="Paste link to image here" id="other_input" name="other" rows="5"
+                      cols="38"></textarea>
+                    </td>
+                </tr>
 
-                        To use this feature, first find an image that is smaller that 128x128 pixles. I suggest using Google Images and setting the "size" option to icon.
-                        Click on the image and the click "View Image".
+                <tr>
+                    <td colspan="4">
+                        <fieldset>
+                            <legend>Important</legend>
+                            To use this feature, first find an image that is smaller than 128x128 pixels. I suggest
+                            using Google
+                            Images and setting the "size" option to icon.
+                            Click on the image and then click "View Image". Once you have opened the image in a new tab,
+                            copy the
+                            url of the page, and paste it into the box in the menu.
+                        </fieldset>
+                        <img src="resources/custom%20help.png">
+                        <img src="resources/help2.png">
 
-                </fieldset>
-            <img src="resources/custom%20help.png">
-            <img src="resources/help2.png">
+                    </td>
+                </tr>
+                </tbody>
 
-        </td>
-    </tr>
-
-    <tr class="more animated slideInRight">
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/red.png">
-            <br>
-            <button id="red">red</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/orange.png">
-            <br>
-            <button id="orange">orange</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/yellow.png">
-            <br>
-            <button id="yellow">yellow</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/lime.png">
-            <br>
-            <button id="lime">lime</button>
-        </td>
-    </tr>
-    <tr class="more animated slideInRight">
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/green.png">
-            <br>
-            <button id="green">green</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/teal.png">
-            <br>
-            <button id="teal">teal</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/light_blue.png">
-            <br>
-            <button id="light_blue">light_blue</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/blue.png">
-            <br>
-            <button id="blue">blue</button>
-        </td>
-    </tr>
-    <tr class="more animated slideInRight">
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/indigo.png">
-            <br>
-            <button id="indigo">indigo</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/purple.png">
-            <br>
-            <button id="purple">purple</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/pink.png">
-            <br>
-            <button id="pink">pink</button>
-        </td>
-        <td style="text-align: center;" class="colours">
-            <img src="cursors/arrows/magenta.png">
-            <br>
-            <button id="magenta">magenta</button>
-        </td>
-    </tr>
-
-    <tr id="prev" class="animated slideInRight">
-        <td colspan="4">
-            <h2 class="demoing">You have chosen:&nbsp&nbsp&nbsp</h2>
-            <h3 class="demoing" id="chosen"></h3>
-            <br>
-            <img class="demoing"  id="preview" src="">
-        </td>
-    </tr>
-</table>
+                <tr id="prev">
+                    <td colspan="4">
+                        <h2 class="demoing">You have chosen:&nbsp&nbsp&nbsp</h2>
+                        <h3 class="demoing" id="chosen"></h3>
+                        <img class="demoing" id="preview" src="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</div>
 
 <script src="popupScript.js"></script>
 </body>

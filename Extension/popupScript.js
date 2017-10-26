@@ -12,44 +12,43 @@ _gaq.push(['_trackPageview']);
 
 //varibles start
 custom = "";
-var urlRows = document.getElementsByClassName('url');
-var cursorsRows = document.getElementsByClassName('cursors');
-var moreRows = document.getElementsByClassName('more');
-buts = document.getElementsByTagName('button');
-chosen = document.getElementsByClassName('chosen');
+var urlRows = document.getElementById('contentUrl');
+var cursorsRows = document.getElementById('contentCur');
+var colorRows = document.getElementById('contentCol');
+var nextLast = document.getElementById('changeButs');
 
+saves = document.getElementsByClassName('save');
+buts = document.getElementsByClassName('curChoice');
+chosen = document.getElementsByClassName('chosen');
 //varibles end
 
 //eventlisners start
 //class
 for (i=0; i < buts.length; i ++){
-    document.getElementById(buts[i].id).addEventListener('click', select)
+    document.getElementById(buts[i].id).addEventListener('click', select, true)
     }
+
+for (i=0; i < saves.length; i ++){
+saves[i].addEventListener('click', saveOptions);
+}
+
+
 //id
+document.getElementById("cols").addEventListener('click', colorsAppear);
+document.getElementById("main").addEventListener('click', cursorAppear);
 document.getElementById("infoLink").addEventListener('click', informationLink);
-document.getElementById('save').removeEventListener('click', select);
-document.getElementById('save').addEventListener('click', saveOptions);
-document.getElementById('URL').removeEventListener('click', select);
+document.getElementById("upLink").addEventListener('click', uploadLink);
+document.getElementById("other").addEventListener('click', other);
 document.getElementById('URL').addEventListener('click', urlAppear);
-document.getElementById('cursor').removeEventListener('click', select);
 document.getElementById('cursor').addEventListener('click', cursorAppear);
-document.getElementById('more').removeEventListener('click', select);
-document.getElementById('more').addEventListener('click', more);
-
-
-
 //eventlisners end
 
 //on load start
 document.addEventListener('DOMContentLoaded', function() {
-    for (i=0; i < urlRows.length; i++){
-        urlRows[i].style.display = "none";
-    }
-    for (i=0; i < moreRows.length; i++){
-        moreRows[i].style.display = "none";
-    }
+    urlRows.style.display = "none";
+    colorRows.style.display = "none";
 }, false);
-//on load end
+//on oad end
 
 
 //functions start
@@ -57,80 +56,66 @@ function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
 
-function more(){
+function uploadLink (){
+    parent.window.open('http://beckbuschgithub.sytes.net/Custom-Rainbow-Cursor-Extension/imgurUp.html');
+}
+
+
+function colorsAppear (){
     document.getElementById('prev').style.display = "table-row";
-
-    for (i=0; i < urlRows.length; i++){
-        urlRows[i].style.display = "none";
-    }
-
-    for (i=0; i < cursorsRows.length; i++) {
-        cursorsRows[i].style.display = "none";
-    }
-
-    for (i=0; i < moreRows.length; i++){
-        moreRows[i].style.display = "table-row";
-    }
+    cursorsRows.style.display = "none";
+    urlRows.style.display = "none";
+    colorRows.style.display = "table-row-group";
+    nextLast.style.display = "table-row-group";
 }
 
 function cursorAppear (){
     document.getElementById('prev').style.display = "table-row";
-
-    for (i=0; i < moreRows.length; i++){
-        moreRows[i].style.display = "none";
-    }
-    for (i=0; i < urlRows.length; i++){
-        urlRows[i].style.display = "none";
-    }
-    for (i=0; i < cursorsRows.length; i++){
-        cursorsRows[i].style.display = "table-row";
-    }
+    cursorsRows.style.display = "table-row-group";
+    urlRows.style.display = "none";
+    colorRows.style.display = "none";
+    nextLast.style.display = "table-row-group";
 }
 
 function urlAppear(){
     document.getElementById('prev').style.display = "none";
-
-    for (i=0; i < moreRows.length; i++){
-        moreRows[i].style.display = "none";
-    }
-    for (i=0; i < cursorsRows.length; i++){
-        cursorsRows[i].style.display = "none";
-    }
-
-    for (i=0; i < urlRows.length; i++){
-        urlRows[i].style.display = "table-row";
-    }
+    cursorsRows.style.display = "none";
+    urlRows.style.display = "table-row-group";
+    colorRows.style.display = "none";
+    nextLast.style.display = "none";
 }
 
 function select() {
     selection = this.id;
-document.getElementById("chosen").innerText = selection;
-    if ( (selection != 'other') && (selection != 'colors') && (selection != 'save') ) {
-        document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
-        document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
+    document.getElementById("chosen").innerText = selection;
+    document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
+    document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
+    };
+
+
+function other() {
+    selection = this.id;
+    custom = (document.getElementById('other_input').value);
+    document.getElementById('preview').src = custom;
+    var img = document.getElementById('preview');
+    var imgWide = img.naturalWidth;
+    var imgHigh = img.naturalHeight;
+    if ((imgWide > 128) || (imgHigh > 128)) {
+        alert("Your custom image is larger that 128x128. This can not be used as a cursor.")
+        document.getElementById('preview').src = "";
+        document.getElementById('preview').style.visibility = "initial";
     }
-    else if (selection == 'other'){
-        custom = (document.getElementById('other_input').value);
-        document.getElementById('preview').src = custom;
-        var img = document.getElementById('preview');
-        var imgWide = img.naturalWidth;
-        var imgHigh = img.naturalHeight;
-        if ((imgWide > 128) || (imgHigh > 128)) {
-            alert("Your custom image is larger that 128x128. This can not be used as a cursor.")
-            document.getElementById('preview').src = "";
-            document.getElementById('preview').style.visibility = "initial";
-        }
-        else if ((imgWide > 32)||(imgHigh > 32)) {
-            alert("Your custom image is larger that 32 pixels. This may not look good as a cursor.");
-            document.getElementById('preview').style.visibility = "initial";
-            document.body.style.cursor = "url(" + custom + "), auto";
-            }
-        else {
-            document.getElementById('preview').style.visibility = "initial";
-            document.body.style.cursor = "url(" + custom + "), auto";
-        }
+    else if ((imgWide > 32) || (imgHigh > 32)) {
+        alert("Your custom image is larger that 32 pixels. This may not look good as a cursor.");
+        document.getElementById('preview').style.visibility = "initial";
+        document.body.style.cursor = "url(" + custom + "), auto";
     }
-}
+    else {
+        document.getElementById('preview').style.visibility = "initial";
+        document.body.style.cursor = "url(" + custom + "), auto";
+    }
+};
+
 
 function saveOptions() {
     _gaq.push(['_trackEvent', selection, 'clicked']);
