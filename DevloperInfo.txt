@@ -1,3 +1,23 @@
+DevloperInfo.txt
+
+/backups
+folder for storing copies of files before large changes are made.
+
+/docs
+folder that holds recourses for information github site
+
+/extension
+the actual extension directory that is uploaded to the webstore
+
+    /cursors
+    image files for the cursors
+
+    /images
+    image files for the options
+
+    /resources
+    files needed to maintain the extension
+
 manifest.json
 An extensions manifest declears permissions and information that the chrome browser needs to run the extension
 
@@ -13,16 +33,3 @@ This is the code that runs on the webpage and actually changes the cursor
 eventPage.js
 background script for assisting the user with install
 
-DevloperInfo.txt
-
-
-/backups
-
-
-/cursors
-
-
-/images
-
-
-/resources
