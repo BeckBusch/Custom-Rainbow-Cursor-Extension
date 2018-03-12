@@ -1,21 +1,27 @@
 td {
     margin: auto;
     width: 80px;
-    /*background-color: #84848e;*/
-}
-table {
-    margin: auto;
-}
-.demoing{
-    display: inline-block;
+
 }
 
-body {
-    background: linear-gradient(to bottom right, #77c9da, #57bc90);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.demoing{
+    display: inline-block;
+    margin-top :5px;
 }
+
+#other, #other_input {
+    margin: 15px;
+}
+
 * {
-    font-family: Verdana, Geneva, sans-serif;
-    color: #313131;
+     font-family: Verdana, Geneva, sans-serif;
+ }
+
+ .demo-card-square.mdl-card {
+     width: 320px;
+     height: 320px;
+ }
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: bottom right 15% no-repeat #46B6AC;
 }

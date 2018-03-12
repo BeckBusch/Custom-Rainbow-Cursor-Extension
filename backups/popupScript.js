@@ -12,6 +12,12 @@ _gaq.push(['_trackPageview']);
 
 //varibles start
 custom = "";
+var urlRows = document.getElementById('contentUrl');
+var cursorsRows = document.getElementById('contentCur');
+var colorRows = document.getElementById('contentCol');
+var nextLast = document.getElementById('changeButs');
+
+saves = document.getElementsByClassName('save');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
 //varibles end
@@ -20,17 +26,32 @@ chosen = document.getElementsByClassName('chosen');
 //class
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
+    }
+
+for (i=0; i < saves.length; i ++){
+saves[i].addEventListener('click', saveOptions);
 }
+
+
 //id
 document.getElementById("default").addEventListener('click', select, true)
+document.getElementById("cols").addEventListener('click', colorsAppear);
+document.getElementById("main").addEventListener('click', cursorAppear);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
-document.getElementById("other2").addEventListener('click', imgurUp);
+document.getElementById('URL').addEventListener('click', urlAppear);
+document.getElementById('cursor').addEventListener('click', cursorAppear);
 document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
 
+//on load start
+document.addEventListener('DOMContentLoaded', function() {
+    urlRows.style.display = "none";
+    colorRows.style.display = "none";
+}, false);
+//on oad end
 //beforeunload start
 window.addEventListener('beforeunload', function() {
     var r = confirm("To change your cursor,\nyou need to reload the page.\nIs it ok to reload now?\n");
@@ -52,7 +73,32 @@ function fbPage (){
 }
 
 function uploadLink (){
-    parent.window.open('http:/beckbusch.github.io/Custom-Rainbow-Cursor-Extension/imgurUp.html');
+    parent.window.open('http://beckbuschgithub.sytes.net/Custom-Rainbow-Cursor-Extension/imgurUp.html');
+}
+
+
+function colorsAppear (){
+    document.getElementById('prev').style.display = "table-row";
+    cursorsRows.style.display = "none";
+    urlRows.style.display = "none";
+    colorRows.style.display = "table-row-group";
+    nextLast.style.display = "table-row-group";
+}
+
+function cursorAppear (){
+    document.getElementById('prev').style.display = "table-row";
+    cursorsRows.style.display = "table-row-group";
+    urlRows.style.display = "none";
+    colorRows.style.display = "none";
+    nextLast.style.display = "table-row-group";
+}
+
+function urlAppear(){
+    document.getElementById('prev').style.display = "none";
+    cursorsRows.style.display = "none";
+    urlRows.style.display = "table-row-group";
+    colorRows.style.display = "none";
+    nextLast.style.display = "none";
 }
 
 function select() {
@@ -61,12 +107,8 @@ function select() {
     document.body.style.cursor = "url(cursors/arrows/" + selection + ".png), auto";
     document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
     saveOptions()
-}
-function imgurUp(){
-    selection = "other";
-    custom = document.getElementById("uploadedImg").src;
-    saveOptions();
-}
+};
+
 
 function other() {
     selection = this.id;
@@ -76,7 +118,7 @@ function other() {
     var imgWide = img.naturalWidth;
     var imgHigh = img.naturalHeight;
     if ((imgWide > 128) || (imgHigh > 128)) {
-        alert("Your custom image is larger that 128x128. This can not be used as a cursor.");
+        alert("Your custom image is larger that 128x128. This can not be used as a cursor.")
         document.getElementById('preview').src = "";
         document.getElementById('preview').style.visibility = "initial";
     }

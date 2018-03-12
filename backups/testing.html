@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="imgur.min.css" rel="stylesheet" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Options</title>
@@ -12,9 +11,10 @@
     <script defer src="resources/material.min.js"></script>
 
 </head>
-<body style="width:475px;">
+<body style="width:475px; display: inline-flex;">
 <!-- Simple header with fixed tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <!-- Title -->
@@ -29,9 +29,9 @@
         </div>
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-            <a href="#fixed-tab-1" class="mdl-layout__tab is-active" id="tab1">Cursors</a>
-            <a href="#fixed-tab-2" class="mdl-layout__tab" id="tab2">URL</a>
-            <a href="#fixed-tab-3" class="mdl-layout__tab" id="tab3">Upload</a>
+            <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Cursors</a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab">URL</a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab">Upload</a>
         </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -300,32 +300,10 @@
             <img src="resources/help2.png">
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-            <div class="page-content">
-                <div id="top">
-                    <h4>Image Uploader</h4>
-                    <p>This uses the Imgur javascript api to upload images, allowing you to use any image from your computer as a cursor.</p>
-                    <p>Images MUST be 128x128 pixels or smaller. At this stage, the code does not check for this! Do it yourself or it will not work</p>
-                    <h5>I did not make this. All the credit goes to <a href="https://github.com/pinceladasdaweb/imgur">pinceladasdaweb</a>.</h5>
-                </div>
-                <div class="dropzone"></div>
-                <p style="margin:10px;">If the image below is correct, click "Submit Image"</p>
-                <button style="margin:15px;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="other2">
-                    Submit Image
-                </button>
-                <!--<output id="outputImg" style="display: block;"></output>-->
-                <img id="uploadedImg" src="">
-                <script src="imgur.min.js"></script>
-                <script src="imgur.js"></script>
-            </div>
+            <div class="page-content"><!-- Your content goes here --></div>
         </section>
     </main>
 </div>
 <script src="popupScript.js"></script>
-
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab1">Pick a Cursor</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab2">Use a URL</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab3">Upload an Image</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="default">Reset the Cursos</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="fb">Facebook Page</div>
 </body>
 </html>

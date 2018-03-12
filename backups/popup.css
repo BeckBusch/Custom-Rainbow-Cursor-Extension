@@ -1,0 +1,24 @@
+td {
+    margin: auto;
+    width: 80px;
+    background-color: #84848e;
+}
+/*
+table {
+    margin: auto;
+}
+*/
+.demoing{
+    display: inline-block;
+    margin-top :5px;
+}
+
+/*body {
+    background: linear-gradient(to bottom right, #77c9da, #57bc90);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+* {
+     font-family: Verdana, Geneva, sans-serif;
+     color: #313131;
+ }

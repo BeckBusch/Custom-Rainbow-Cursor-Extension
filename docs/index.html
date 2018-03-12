@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7564875422911641",
-            enable_page_level_ads: true
-        });
-    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98900189-1"></script>
     <script>
@@ -21,337 +14,356 @@
 
         gtag('config', 'UA-98900189-1');
     </script>
+
     <meta charset="UTF-8">
     <title>Custom Cursor</title>
+
     <link type="text/css" href="info.css" rel="stylesheet">
     <link type="text/css" href="animate.css" rel="stylesheet">
-    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/iclinnjcnpihmbogglkigdkhkeajbcck">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-blue.min.css"/>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <!-- blue #77c9da  light green #57bc90  drak green #015249  grey #a5a5af-->
-<body style="text-align:center;">
-<h1>Custom Cursor Extension</h1>
-<nav>
-    <ul>
-        <li>
-            <a onclick="home()">Home</a>
-        </li>
-        <li>
-            <a onclick="update()" id="up">Update<br>Log</a>
-        </li>
-        <li>
-            <a onclick="gallery()">Gallery</a>
-        </li>
-        <li>
-            <a href="imgurUp.html">Image<br>Uploader</a>
-        </li>
-        <li>
-            <a onclick="contact()">Contact</a>
-        </li>
-        <li>
-            <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23">
-                Send<br>Support<br>Email
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/BeckBusch/Custom-Rainbow-Cursor-Extension">Github</a>
-        </li>
-    </ul>
-</nav>
+<body>
+<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Custom Cursor Extension</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://www.facebook.com/CustomCursorExtension">Facebook Page</a>
+                <a class="mdl-navigation__link" href="imgurUp.html">Image Uploader</a>
+                <a class="mdl-navigation__link" href="https://github.com/BeckBusch/Custom-Rainbow-Cursor-Extension">Github</a>
+                <a class="mdl-navigation__link" href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23" >Support Email</a>
+                <a class="mdl-navigation__link" href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Request&body=**This%20is%20only%20a%20template!%20Please%20replace%20this%20text%20with%20your%20request.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20orginistaion%23%23%0A%23%23%20Type%3DR3Qu35tS%20%23%23">Request Email</a>
+            </nav>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Home</a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab">Gallery</a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab">Update Log</a>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+    </div>
+    <main class="mdl-layout__content" style="margin-left:5px;">
+        <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+            <div class="page-content">
+                <a href="https://chrome.google.com/webstore/detail/iclinnjcnpihmbogglkigdkhkeajbcck"><h5>Webstore Link</h5></a>
+                <h3>
+                    Features
+                </h3>
+                <p>
+                    The main feature of this extension is being able to pick from a selection of cursors to customise your
+                    browsing
+                    experience.<br>
+                    The cursors availible are shown in the gallery page.<br>
+                    You can also use any image on the web by pasting its URL.<br>
+                    Finally you can upload an image from your computer and use that.
+                </p>
+                <h4>
+                    Please Rate
+                </h4>
+                <p>
+                    Due to many people giving low or silly ratings to past versions of the extension the extension only has
+                    three stars.
+                    <br>
+                    While I am <em>not</em> asking you to rate the extension highly just because I asked,
+                    I am asking you to give the extension a rating that you think it deserves and I will work to make it as good
+                    as I can.
+                </p>
+                <h3>
+                    Usage
+                </h3>
+                <p>
+                    To use this extension simpily click on the icon and select a cursor.<br>
+                    you can pick different sets of cursors like colors, animals, or gaming.<br>
+                    If your have any questions or problems, you can use the support tab in the chrome webstore, or email me at
+                    bbusch.devloper@gmail.com
+                </p>
+                <h3>Join the Devlopment Team!</h3>
+                <p>Soon, I will start to look for people to help develop the extension alongside me. Stay tuned.</p>
+                <h3>
+                    Latest Development Version
+                </h3>
+                <p>
+                    I publish big updates only when they are completly finished and small updates all at once at the end of the
+                    week.
+                    <br>
+                    If you would like to get updates before I publish them, head to my github page and use the link at the
+                    bottom to download the latest version of the extension.
+                    <br>
+                    Once downloaded, go to chrome://extensions > tick 'Developer Mode' > Load unpacked extension > find the file
+                    you downloaded and it should work.
+                </p>
+                <br>
+                <p>
+                    Update: In response to complaints that the extension does not work, I would like to clarify some conditions
+                    that it will
+                    not work in.
 
-<content id="home" style="display: none;">
-    <a href="https://chrome.google.com/webstore/detail/iclinnjcnpihmbogglkigdkhkeajbcck"><h2>Webstore Link</h2></a>
-     <h1>
-        Features
-    </h1>
-    <p>
-        The main feature of this extension is being able to pick from a selection of cursors to customise your browsing
-        experience.<br>
-        The cursors availible are shown in the gallery page.<br>
+                    - The Chrome Web Store. To my knowledge, no extension can change the Chrome Web Store website.
+                    -Pages that were open when the extension was installed and have not been refreshed. You will need to refresh
+                    any open
+                    pages for the extension to take effect.
+                    -Any part of the screen that is not the web page. (Bookmarks bar, tabs, etc.) This is the browser, not the
+                    webpage and
+                    can't be affected by extensions.
 
-    </p>
-    <h2>
-        Please Rate
-    </h2>
-    <p>
-        Due to many people giving low or silly ratings to past versions of the extension the extension only has three stars.
-        <br>
-        While I am <em>not</em> asking you to rate the extension highly just because I asked,
-        I am asking you to give the extension a rating that you think it deserves and I will work to make it as good as I can.
-    </p>
-    <h1>
-        Usage
-    </h1>
-    <p>
-        <b>To use this extension, you first need to right click on the icon, and select 'options'.</b> Once you arrive, you have three options.
-        <br>
-        The first is to select on of the availible cursors. The second is to click 'colors' and pick a cursor from one of 13 different colors. The third option is to paste the link to an image in the box, and then press 'other'. This will set your cursor to the image that you linked.
-        <br>
-        After selecting a cursor, you can preview it on the page. If you are happy with your selection, clicking 'Save Changes' will submit your selection.
-        <br>
-        If your have any questions or problems, you can use the support tab in the chrome webstore, or email me at bbusch.devloper@gmail.com
-    </p>
-    <h1>Join the Devlopment Team!</h1>
-    <p>Soon, I will start to look for people to help develop the extension alongside me. Stay tuned.</p>
-    <h1>
-        Latest Development Version
-    </h1>
-    <p>
-        I publish big updates only when they are completly finished and small updates all at once at the end of the week.
-        <br>
-        If you would like to get updates before I publish them, head to my github page and use the link at the bottom to download the latest version of the extension.
-        <br>
-        Once downloaded, go to chrome://extensions > tick 'Developer Mode' > Load unpacked extension > find the file you downloaded and it should work.
-    </p>
-    <br>
-<p>
-    Update: In response to complaints that the extension does not work, I would like to clarify some conditions that it will
-    not work in.
+                    Hopefully, this will clear up any confusion or problems that you guys have been having. If you come across
+                    any problems,
+                    email me or use the support section of the web store.
+                </p>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+            <div class="page-content">
+                <table style="margin: auto;">
+                    <tr>
+                        <td>
+                            <img src="images/fish.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/pokeball.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/vader.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/saber.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/acorn.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/hallo.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/point/fish.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/pokeball.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/vader.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/saber.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/acorn.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/hallo.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin: auto;">
+                    <tr>
+                        <td>
+                            <img src="images/light-darkblue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/green-graident.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/rainbow.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/violet-red.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/stripe.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/pink-gradient.png" class="animated zoomIn">
+                        </td>
 
-    - The Chrome Web Store. To my knowledge, no extension can change the Chrome Web Store website.
-    -Pages that were open when the extension was installed and have not been refreshed. You will need to refresh any open
-    pages for the extension to take effect.
-    -Any part of the screen that is not the web page. (Bookmarks bar, tabs, etc.) This is the browser, not the webpage and
-    can't be affected by extensions.
-
-    Hopefully, this will clear up any confusion or problems that you guys have been having. If you come across any problems,
-    email me or use the support section of the web store.
-</p>
-</content>
-<content id="gallery" style="display: none; vertical-align: middle;">
-    <table style="margin: auto;">
-        <tr>
-            <td>
-                <img src="images/fish.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/pokeball.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/vader.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/saber.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/acorn.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/hallo.png" class="animated zoomIn">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/point/fish.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/pokeball.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/vader.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/saber.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/acorn.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/hallo.png" class="animated zoomIn">
-            </td>
-        </tr>
-    </table>
-    <table style="margin: auto;">
-        <tr>
-            <td>
-                <img src="images/light-darkblue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/green-graident.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/rainbow.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/violet-red.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/stripe.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/pink-gradient.png" class="animated zoomIn">
-            </td>
-
-        </tr>
-        <tr>
-            <td>
-                <img src="images/point/light-darkblue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/green-graident.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/rainbow.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/violet-red.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/stripe.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/pink-gradient.png" class="animated zoomIn">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/red.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/orange.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/yellow.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/lime.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/green.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/teal.png" class="animated zoomIn">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/point/red.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/orange.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/yellow.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/lime.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/green.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/teal.png" class="animated zoomIn">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/light_blue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/blue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/indigo.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/purple.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/pink.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/magenta.png" class="animated zoomIn">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/point/light_blue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/blue.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/indigo.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/purple.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/pink.png" class="animated zoomIn">
-            </td>
-            <td>
-                <img src="images/point/magenta.png" class="animated zoomIn">
-            </td>
-        </tr>
-    </table>
-</content>
-<content id="update" style="display: none;">
-    <h1>
-        Update Log
-    </h1>
-    <h2>Update 3.3.5</h2>
-    <p>Update 3.3.5 introduces a lovely material design UI update, and an image uploader. The image uploader allows you to upload images from your computer and use them as cursors.<br>
-    You can find the image uploader in the navigation bar.</p>
-    <h1>Update 3.3.4</h1>
-    <p>
-        Update 3.3.4 is the spooky halloween update adding a new cursor with a spooky surprise and an update to the popup design.
-        <br>
-        The main purpose of the design is to make way for several new designs to be added in a way that does not change the layout much.
-        <br>
-        I hope you all like it, email me at bbusch.developer@gmail.com if you find any bugs, and have a spooky halloween!
-    </p>
-    <h3>
-        Update 3.3.3
-    </h3>
-    <p>
-        Update 3.3.3 features four new cursors as well as a redesign of the popup and this information page.
-    </p>
-    <h4>
-        Update 3.3.1 and 3.3.2
-    </h4>
-    <p>
-        Added Google Analytics
-    </p>
-    <h2>
-        Update 3.3.0
-    </h2>
-    <p>
-        Added Pointer Feature
-    </p>
-    <h2>
-        Update 3.2.0!
-    </h2>
-    <p>
-        In this update, I added the feature to change your cursor from within any webpage.<br>
-        Simply click on the icon in the top right-hand corner, and select your cursor from there.
-    </p>
-    <h2>
-        Update 3.0.0!
-    </h2>
-    <p>
-        In this new update, I have added the ability to choose from a selection of cursors, as well as the ability to use your
-        own image.
-        <br>
-        To select a cursor, right click on the icon in the top right, and select options. Next, select a cursor and if you are
-        happy with it, press Save Changes.
-        <br>
-        Also, I have removed my Fish Cursor extension and replaced it with a fish cursor option.
-    </p>
-</content>
-<content id="contact" style="display: none;">
-    <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Request&body=**This%20is%20only%20a%20template!%20Please%20replace%20this%20text%20with%20your%20request.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20orginistaion%23%23%0A%23%23%20Type%3DR3Qu35tS%20%23%23">
-        <button class="contactButtons">
-            Request Feature or Cursor
-        </button>
-    </a>
-    <br>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScT9aJT3SplYEssXMkOa3npcJMCNc0PIqHiOuhszalSSYrELA/viewform?embedded=true" width="80%" height="1250px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</content>
-<footer>
-
-    <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23">Send Support Email</a>
-    <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Request&body=**This%20is%20only%20a%20template!%20Please%20replace%20this%20text%20with%20your%20request.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20orginistaion%23%23%0A%23%23%20Type%3DR3Qu35tS%20%23%23">Request Feature or New Cursor</a>
-</footer>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/point/light-darkblue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/green-graident.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/rainbow.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/violet-red.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/stripe.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/pink-gradient.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/red.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/orange.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/yellow.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/lime.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/green.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/teal.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/point/red.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/orange.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/yellow.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/lime.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/green.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/teal.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/light_blue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/blue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/indigo.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/purple.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/pink.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/magenta.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/point/light_blue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/blue.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/indigo.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/purple.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/pink.png" class="animated zoomIn">
+                        </td>
+                        <td>
+                            <img src="images/point/magenta.png" class="animated zoomIn">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+            <div class="page-content">
+                <h1>
+                    Update Log
+                </h1>
+                <h2>Update 3.3.5</h2>
+                <p>Update 3.3.5 introduces a lovely material design UI update, and an image uploader. The image uploader allows
+                    you to upload images from your computer and use them as cursors.<br>
+                    You can find the image uploader in the navigation bar.</p>
+                <h1>Update 3.3.4</h1>
+                <p>
+                    Update 3.3.4 is the spooky halloween update adding a new cursor with a spooky surprise and an update to the
+                    popup design.
+                    <br>
+                    The main purpose of the design is to make way for several new designs to be added in a way that does not
+                    change the layout much.
+                    <br>
+                    I hope you all like it, email me at bbusch.developer@gmail.com if you find any bugs, and have a spooky
+                    halloween!
+                </p>
+                <h3>
+                    Update 3.3.3
+                </h3>
+                <p>
+                    Update 3.3.3 features four new cursors as well as a redesign of the popup and this information page.
+                </p>
+                <h4>
+                    Update 3.3.1 and 3.3.2
+                </h4>
+                <p>
+                    Added Google Analytics
+                </p>
+                <h2>
+                    Update 3.3.0
+                </h2>
+                <p>
+                    Added Pointer Feature
+                </p>
+                <h2>
+                    Update 3.2.0!
+                </h2>
+                <p>
+                    In this update, I added the feature to change your cursor from within any webpage.<br>
+                    Simply click on the icon in the top right-hand corner, and select your cursor from there.
+                </p>
+                <h2>
+                    Update 3.0.0!
+                </h2>
+                <p>
+                    In this new update, I have added the ability to choose from a selection of cursors, as well as the ability
+                    to use your
+                    own image.
+                    <br>
+                    To select a cursor, right click on the icon in the top right, and select options. Next, select a cursor and
+                    if you are
+                    happy with it, press Save Changes.
+                    <br>
+                    Also, I have removed my Fish Cursor extension and replaced it with a fish cursor option.
+                </p>
+            </div>
+        </section>
+    </main>
+</div>
 <script src="infoScript.js"></script>
+<!--<footer>
+
+    <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Help&body=**This%20is%20only%20a%20template!%20Please%20edit%20this%20text%20and%20replace%20it%20with%20your%20request%20for%20help.%20It%20makes%20it%20easier%20if%20you%20give%20as%20much%20detail%20as%20possible%20when%20asking%20for%20help.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20organisation%23%23%0A%23%23%20Type%3DSuPP0rT%20%23%23">Send
+        Support Email</a>
+    <a href="mailto:BBusch.Developer@gmail.com?subject=Custom%20Cursor%20Request&body=**This%20is%20only%20a%20template!%20Please%20replace%20this%20text%20with%20your%20request.**%0A%0A%23%23Do%20Not%20Edit!%20Used%20for%20orginistaion%23%23%0A%23%23%20Type%3DR3Qu35tS%20%23%23">Request
+        Feature or New Cursor</a>
+</footer>-->
 </body>
 </html>

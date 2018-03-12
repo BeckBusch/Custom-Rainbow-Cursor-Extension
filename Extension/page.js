@@ -7,6 +7,10 @@ chrome.storage.sync.get('option', function (obj) {
             document.body.style.cursor = "url(" + obj['link'] + "), auto";
         });
     }
+    else if (obj['option'] == "default") {
+        document.body.style.cursor = "auto";
+
+    }
     else {
 
         document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
