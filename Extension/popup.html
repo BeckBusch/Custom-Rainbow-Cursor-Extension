@@ -49,14 +49,16 @@
                 <!-- Simple header with scrollable tabs. -->
                 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
                     <header class="mdl-layout__header">
-                        <!-- Tabs -->
+                        <!-- Tabs mdl-layout--large-screen-only -->
                         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
                             <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Featured</a>
                             <a href="#scroll-tab-2" class="mdl-layout__tab">Colors</a>
                             <a href="#scroll-tab-3" class="mdl-layout__tab">Animals</a>
                             <a href="#scroll-tab-4" class="mdl-layout__tab">Gaming</a>
                             <a href="#scroll-tab-5" class="mdl-layout__tab">Emoji</a>
-                            <a href="#scroll-tab-6" class="mdl-layout__tab">Food</a>
+                            <a href="#scroll-tab-6" class="mdl-layout__tab mdl-layout--small-screen-only">Extra</a>
+
+                            <a href="#scroll-tab-7" class="mdl-layout__tab mdl-layout--large-screen-only">Food</a>
                         </div>
                     </header>
                     <main class="mdl-layout__content">
@@ -256,7 +258,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </section>
+                        </section><!--colors-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-3">
                             <div class="page-content">
                                 <table>
@@ -354,16 +356,121 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </section>
+                        </section><!--animals-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-4">
                             <div class="page-content"><!-- Your content goes here --></div>
-                        </section>
+                        </section><!--gaming-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-5">
-                            <div class="page-content"><!-- Your content goes here --></div>
-                        </section>
+                            <div class="page-content">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/joy.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="joy">Happy Cry
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smile.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smile">Smile
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smileSweat.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smileSweat">Sweat Smile
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/silly.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="silly">Silly
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/heartEyes.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="heartEyes">Heart Eyes
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/kiss.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="kiss">Kissing
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smirk.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smirk">Smirking
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/thinking.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="thinking">Thinking
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/sad.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="sad">Sad
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/fear.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="fear">Fear
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/angry.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="angry">Angry
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/glasses.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="glasses">Glasses
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--emoji-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-6">
-                            <div class="page-content"><!-- Your content goes here --></div>
-                        </section>
+                        <div class="page-content"><h3>Want more cursors?</h3>
+                            <p>I can only fit so many in this tiny popup.
+                                To access the rest of the cursors, go to the options menu where you can find more</p>
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                            id="gotoOptions">Options Page</button>
+                        </div>
+                    </section><!--extra-->
+
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-7">
+                            <div class="page-content"></div>
+                        </section><!--food-->
 
                         <h4 class="demoing">You have chosen:</h4>
                         <h4 class="demoing" id="chosen"></h4>

@@ -8,21 +8,21 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-
-
 custom = "";
-
 buts = document.getElementsByTagName('button');
 for (i=0; i < buts.length; i ++){
-    document.getElementById(buts[i].id).addEventListener('click', select)
-}
+    document.getElementById(buts[i].id).addEventListener('click', select)}
+
 document.getElementById('save').removeEventListener('click', select);
 document.getElementById('save').addEventListener('click', saveOptions);
+document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("helpBut").removeEventListener('click', select);
 document.getElementById("helpBut").addEventListener('click', hideHelp);
 
-function hideHelp(){
-    document.getElementById("help").style.display = "none";
+function hideHelp(){document.getElementById("help").style.display = "none";}
+
+function gotoOptions(){
+    chrome.runtime.openOptionsPage();
 }
 
 function select() {

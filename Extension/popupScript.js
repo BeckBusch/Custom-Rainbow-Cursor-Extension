@@ -26,6 +26,7 @@ document.getElementById("default").addEventListener('click', select, true)
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
+document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("other2").addEventListener('click', imgurUp);
 document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
@@ -42,13 +43,17 @@ window.addEventListener('beforeunload', function() {
     }
 });
 
-
 //functions start
 function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
+
 function fbPage (){
     parent.window.open('https://www.facebook.com/CustomCursorExtension');
+}
+
+function gotoOptions(){
+    chrome.runtime.openOptionsPage();
 }
 
 function uploadLink (){
@@ -62,6 +67,7 @@ function select() {
     document.getElementById('preview').src = "cursors/arrows/" +selection + ".png";
     saveOptions()
 }
+
 function imgurUp(){
     selection = "other";
     custom = document.getElementById("uploadedImg").src;
@@ -91,7 +97,6 @@ function other() {
     }
     saveOptions()
 };
-
 
 function saveOptions() {
     _gaq.push(['_trackEvent', selection, 'clicked']);
