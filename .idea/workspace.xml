@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9678b62-3ffe-48d8-9788-14eafcc9df27" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Extension/optionScript.js" afterPath="$PROJECT_DIR$/backups/optionScript.js" />
-      <change beforePath="$PROJECT_DIR$/Extension/options.html" afterPath="$PROJECT_DIR$/backups/options.html" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.html" afterPath="$PROJECT_DIR$/Extension/popup.html" />
-      <change beforePath="$PROJECT_DIR$/Extension/popupScript.js" afterPath="$PROJECT_DIR$/Extension/popupScript.js" />
       <change beforePath="$PROJECT_DIR$/backups/working table.html" afterPath="$PROJECT_DIR$/backups/working table.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +22,8 @@
       <file leaf-file-name="popup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Extension/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="457" column="40" lean-forward="false" selection-start-line="457" selection-start-column="40" selection-end-line="457" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -93,15 +90,17 @@
                 <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -110,6 +109,12 @@
                 <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,7 +123,7 @@
       <file leaf-file-name="popupScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="476">
               <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
               <folding>
                 <element signature="e#1377#1690#0" expanded="false" />
@@ -139,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/backups/working table.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="93" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="8" />
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="8" />
               <folding>
                 <element signature="n#table#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
@@ -163,18 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animated slideinright</find>
-      <find>animated</find>
-      <find>tbody</find>
-      <find>new</find>
-      <find>s.display</find>
-      <find>table-body</find>
-      <find>prev</find>
-      <find>contentu</find>
-      <find>contentU</find>
-      <find>other</find>
-      <find>class=&quot;colours&quot;</find>
-      <find>lime</find>
       <find>green</find>
       <find>teal</find>
       <find>light_blue</find>
@@ -193,6 +186,18 @@
       <find>frog</find>
       <find>rabbit</find>
       <find>snake</find>
+      <find>joy</find>
+      <find>Happy cry</find>
+      <find>smile</find>
+      <find>silly</find>
+      <find>hearteyes</find>
+      <find>kiss</find>
+      <find>smirk</find>
+      <find>thinking</find>
+      <find>sad</find>
+      <find>fear</find>
+      <find>angry</find>
+      <find>glasses</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -268,7 +273,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -303,6 +308,26 @@
               <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
               <item name="Extension" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="arrows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="pointers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +339,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -423,18 +448,22 @@
       <workItem from="1519339176545" duration="320000" />
       <workItem from="1520803238936" duration="17083000" />
       <workItem from="1520888105331" duration="1840000" />
-      <workItem from="1520974614921" duration="4178000" />
+      <workItem from="1520974614921" duration="5210000" />
+      <workItem from="1520992530294" duration="67000" />
+      <workItem from="1521151876786" duration="2295000" />
+      <workItem from="1521778025337" duration="645000" />
+      <workItem from="1522036816813" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129939000" />
+    <option name="totallyTimeSpent" value="134979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -494,9 +523,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eventPage.js" />
-    <entry file="file://$PROJECT_DIR$/popup.html" />
-    <entry file="file://$PROJECT_DIR$/page.js" />
     <entry file="file://$PROJECT_DIR$/popupScript.js" />
     <entry file="file://$PROJECT_DIR$/manifest.json" />
     <entry file="file://$PROJECT_DIR$/options.html" />
@@ -678,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,28 +753,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#select#0" expanded="false" />
-            <element signature="n#!!block;n#saveOptions#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backups/working table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="93" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="8" />
-          <folding>
-            <element signature="n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="476">
           <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
           <folding>
             <element signature="e#1377#1690#0" expanded="false" />
@@ -765,10 +774,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/acorn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/working table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="8" />
+          <folding>
+            <element signature="n#table#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/rabbit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/pointers/rabbit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="457" column="40" lean-forward="false" selection-start-line="457" selection-start-column="40" selection-end-line="457" selection-end-column="40" />
+        <state relative-caret-position="391">
+          <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -835,15 +871,17 @@
             <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -852,6 +890,12 @@
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
           </folding>
         </state>
       </provider>
