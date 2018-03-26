@@ -25,3 +25,15 @@ td {
     color: #fff;
     background: bottom right 15% no-repeat #46B6AC;
 }
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+    background-color: #3b5998;
+
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
