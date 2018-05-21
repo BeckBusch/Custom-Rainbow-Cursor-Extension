@@ -6,12 +6,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Extension/optionScript.js" afterPath="$PROJECT_DIR$/backups/optionScript.js" />
       <change beforePath="$PROJECT_DIR$/Extension/options.html" afterPath="$PROJECT_DIR$/backups/options.html" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.html" afterPath="$PROJECT_DIR$/Extension/popup.html" />
       <change beforePath="$PROJECT_DIR$/Extension/popupScript.js" afterPath="$PROJECT_DIR$/Extension/popupScript.js" />
       <change beforePath="$PROJECT_DIR$/backups/working table.html" afterPath="$PROJECT_DIR$/backups/working table.html" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+      <change beforePath="$PROJECT_DIR$/Extension/popup.html" afterPath="$PROJECT_DIR$/Extension/popup.html" />
+      <change beforePath="$PROJECT_DIR$/backups/working table.html" afterPath="$PROJECT_DIR$/backups/working table.html" />
+>>>>>>> parent of c12f116... added facebook prompt
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,12 +35,17 @@
         <entry file="file://$PROJECT_DIR$/paintDev/paintDev.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="68">
               <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
 =======
             <state relative-caret-position="527">
               <caret line="457" column="40" lean-forward="false" selection-start-line="457" selection-start-column="40" selection-end-line="457" selection-end-column="40" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+            <state relative-caret-position="391">
+              <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+>>>>>>> parent of c12f116... added facebook prompt
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,13 +116,23 @@
                 <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
                 <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> parent of c12f116... added facebook prompt
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
                 <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+>>>>>>> parent of c12f116... added facebook prompt
                 <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -121,12 +141,22 @@
                 <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+                <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
+>>>>>>> parent of c12f116... added facebook prompt
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="paintScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paintDev/paintScript.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,6 +165,12 @@
               <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
 =======
             <state relative-caret-position="277">
+=======
+      <file leaf-file-name="popupScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+>>>>>>> parent of c12f116... added facebook prompt
               <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
               <folding>
                 <element signature="e#1377#1690#0" expanded="false" />
@@ -258,6 +294,7 @@
         <option value="$PROJECT_DIR$/Extension/imgur.min.js" />
         <option value="$PROJECT_DIR$/Extension/imgurUp.html" />
         <option value="$PROJECT_DIR$/Extension/imgur.js" />
+        <option value="$PROJECT_DIR$/Extension/popup.css" />
         <option value="$PROJECT_DIR$/backups/card.txt" />
         <option value="$PROJECT_DIR$/docs/infoScript.js" />
         <option value="$PROJECT_DIR$/docs/info.css" />
@@ -265,9 +302,14 @@
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/backups/working table.txt" />
         <option value="$PROJECT_DIR$/Extension/optionScript.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/backups/working table.html" />
         <option value="$PROJECT_DIR$/Extension/popupScript.js" />
         <option value="$PROJECT_DIR$/Extension/eventPage.js" />
+=======
+        <option value="$PROJECT_DIR$/Extension/popupScript.js" />
+        <option value="$PROJECT_DIR$/backups/working table.html" />
+>>>>>>> parent of c12f116... added facebook prompt
         <option value="$PROJECT_DIR$/Extension/popup.html" />
         <option value="$PROJECT_DIR$/Extension/popup.css" />
         <option value="$PROJECT_DIR$/paintDev/paintStyle.css" />
@@ -289,7 +331,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -300,6 +342,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> parent of c12f116... added facebook prompt
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -314,6 +360,7 @@
               <item name="Extension" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <path>
               <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
               <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
@@ -321,6 +368,28 @@
             </path>
 =======
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="arrows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="pointers" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> parent of c12f116... added facebook prompt
           </expand>
           <select />
         </subPane>
@@ -452,6 +521,7 @@
       <workItem from="1520992530294" duration="67000" />
       <workItem from="1521151876786" duration="2295000" />
       <workItem from="1521778025337" duration="645000" />
+<<<<<<< HEAD
       <workItem from="1522036816813" duration="1070000" />
       <workItem from="1522046482184" duration="562000" />
       <workItem from="1522184737910" duration="2364000" />
@@ -463,10 +533,14 @@
 =======
       <workItem from="1520974614921" duration="4178000" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+      <workItem from="1522036816813" duration="1001000" />
+>>>>>>> parent of c12f116... added facebook prompt
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="144043000" />
   </component>
@@ -499,6 +573,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="134979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+>>>>>>> parent of c12f116... added facebook prompt
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -758,7 +838,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> parent of c12f116... added facebook prompt
         </state>
       </provider>
     </entry>
@@ -806,6 +889,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/backups/working table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -831,6 +915,29 @@
             <element signature="n#!!block;n#saveOptions#0" expanded="false" />
           </folding>
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="e#1377#1690#0" expanded="false" />
+            <element signature="n#!!block;n#informationLink#0" expanded="false" />
+            <element signature="n#!!block;n#fbPage#0" expanded="false" />
+            <element signature="n#!!block;n#gotoOptions#0" expanded="false" />
+            <element signature="n#!!block;n#uploadLink#0" expanded="false" />
+            <element signature="n#!!block;n#select#0" expanded="false" />
+            <element signature="n#!!block;n#imgurUp#0" expanded="false" />
+            <element signature="n#!!block;n#other#0" expanded="false" />
+            <element signature="n#!!block;n#saveOptions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/acorn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> parent of c12f116... added facebook prompt
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backups/working table.html">
@@ -846,6 +953,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -874,10 +982,21 @@
           </folding>
 >>>>>>> parent of f42392e... added animals and overwatch
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/rabbit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/pointers/rabbit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> parent of c12f116... added facebook prompt
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="-306">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -892,6 +1011,10 @@
         <state relative-caret-position="527">
           <caret line="457" column="40" lean-forward="false" selection-start-line="457" selection-start-column="40" selection-end-line="457" selection-end-column="40" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+        <state relative-caret-position="391">
+          <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+>>>>>>> parent of c12f116... added facebook prompt
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -962,13 +1085,23 @@
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
             <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> parent of c12f116... added facebook prompt
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
             <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+>>>>>>> parent of c12f116... added facebook prompt
             <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -977,7 +1110,16 @@
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+            <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
+>>>>>>> parent of c12f116... added facebook prompt
           </folding>
         </state>
       </provider>

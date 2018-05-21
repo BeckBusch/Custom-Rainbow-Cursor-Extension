@@ -30,7 +30,6 @@ document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("other2").addEventListener('click', imgurUp);
 document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
-document.getElementById('fb3').addEventListener('click', fbPage);
 //eventlisners end
 
 //beforeunload start
