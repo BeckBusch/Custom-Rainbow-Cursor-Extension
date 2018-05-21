@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9678b62-3ffe-48d8-9788-14eafcc9df27" name="Default" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
@@ -20,6 +20,8 @@
       <change beforePath="$PROJECT_DIR$/Extension/popup.html" afterPath="$PROJECT_DIR$/Extension/popup.html" />
       <change beforePath="$PROJECT_DIR$/backups/working table.html" afterPath="$PROJECT_DIR$/backups/working table.html" />
 >>>>>>> parent of c12f116... added facebook prompt
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,6 +39,7 @@
       <file leaf-file-name="paintDev.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintDev/paintDev.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +174,13 @@
 >>>>>>> parent of c12f116... added facebook prompt
 =======
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+            <state relative-caret-position="68">
+              <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
               </folding>
             </state>
           </provider>
@@ -180,9 +190,9 @@
       <file leaf-file-name="paintScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paintDev/paintScript.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="221">
               <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+<<<<<<< HEAD
 =======
             <state relative-caret-position="277">
 =======
@@ -222,6 +232,8 @@
                 <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
               </folding>
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
             </state>
           </provider>
         </entry>
@@ -241,18 +253,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animated slideinright</find>
-      <find>animated</find>
-      <find>tbody</find>
-      <find>new</find>
-      <find>s.display</find>
-      <find>table-body</find>
-      <find>prev</find>
-      <find>contentu</find>
-      <find>contentU</find>
-      <find>other</find>
-      <find>class=&quot;colours&quot;</find>
-      <find>lime</find>
       <find>green</find>
       <find>teal</find>
       <find>light_blue</find>
@@ -271,6 +271,18 @@
       <find>frog</find>
       <find>rabbit</find>
       <find>snake</find>
+      <find>joy</find>
+      <find>Happy cry</find>
+      <find>smile</find>
+      <find>silly</find>
+      <find>hearteyes</find>
+      <find>kiss</find>
+      <find>smirk</find>
+      <find>thinking</find>
+      <find>sad</find>
+      <find>fear</find>
+      <find>angry</find>
+      <find>glasses</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -386,11 +398,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
             <path>
               <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
               <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
               <item name="paintDev" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
 =======
 >>>>>>> parent of f42392e... added animals and overwatch
 =======
@@ -417,6 +433,8 @@
 >>>>>>> parent of c12f116... added facebook prompt
 =======
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
           </expand>
           <select />
         </subPane>
@@ -428,12 +446,6 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-=======
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
->>>>>>> parent of f42392e... added animals and overwatch
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -545,6 +557,9 @@
       <workItem from="1520888105331" duration="1840000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
       <workItem from="1520974614921" duration="5210000" />
       <workItem from="1520992530294" duration="67000" />
       <workItem from="1521151876786" duration="2295000" />
@@ -558,6 +573,7 @@
       <workItem from="1523056433640" duration="1245000" />
       <workItem from="1525912548065" duration="599000" />
       <workItem from="1526602306666" duration="529000" />
+<<<<<<< HEAD
 =======
       <workItem from="1520974614921" duration="4178000" />
 >>>>>>> parent of f42392e... added animals and overwatch
@@ -567,6 +583,8 @@
 =======
       <workItem from="1520974614921" duration="4178000" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
     </task>
     <servers />
   </component>
@@ -574,6 +592,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
     <option name="totallyTimeSpent" value="144043000" />
   </component>
   <component name="ToolWindowManager">
@@ -600,6 +621,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+<<<<<<< HEAD
 =======
     <option name="totallyTimeSpent" value="129939000" />
   </component>
@@ -641,6 +663,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,6 +684,7 @@
   <component name="editorHistoryManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/paintDev/paintDev.html">
 =======
 =======
@@ -674,6 +699,9 @@
     <entry file="file://$PROJECT_DIR$/docs/images/temp.txt" />
     <entry file="file://$PROJECT_DIR$/backups/cursorsnippet.txt">
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+    <entry file="file://$PROJECT_DIR$/paintDev/paintDev.html">
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
@@ -868,8 +896,8 @@
     <entry file="file://$PROJECT_DIR$/Extension/imgur.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-<<<<<<< HEAD
           <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+<<<<<<< HEAD
 =======
           <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
@@ -895,6 +923,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
         </state>
       </provider>
     </entry>
@@ -931,6 +961,9 @@
         <state relative-caret-position="238">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
           <caret line="17" column="36" selection-start-line="17" selection-end-line="18" />
         </state>
       </provider>
@@ -954,6 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+<<<<<<< HEAD
 =======
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
@@ -995,6 +1029,8 @@
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
           </folding>
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
         </state>
       </provider>
     </entry>
@@ -1002,7 +1038,6 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="544">
           <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
@@ -1012,6 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+<<<<<<< HEAD
 =======
 =======
     <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
@@ -1032,6 +1068,8 @@
           </folding>
 <<<<<<< HEAD
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
         </state>
 =======
     <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/rabbit.png">
@@ -1053,6 +1091,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
         <state relative-caret-position="-306">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
@@ -1062,6 +1103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+<<<<<<< HEAD
 =======
         <state relative-caret-position="527">
           <caret line="457" column="40" lean-forward="false" selection-start-line="457" selection-start-column="40" selection-end-line="457" selection-end-column="40" />
@@ -1191,6 +1233,11 @@
 >>>>>>> parent of c12f116... added facebook prompt
 =======
 >>>>>>> parent of f42392e... added animals and overwatch
+=======
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> parent of 1571f48... Revert "added animals and overwatch"
           </folding>
         </state>
       </provider>
