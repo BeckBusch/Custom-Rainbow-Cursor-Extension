@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9678b62-3ffe-48d8-9788-14eafcc9df27" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/eventPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/eventPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup.html" afterPath="$PROJECT_DIR$/Extension/popup.html" />
+      <change beforePath="$PROJECT_DIR$/backups/working table.html" afterPath="$PROJECT_DIR$/backups/working table.html" />
+>>>>>>> parent of c12f116... added facebook prompt
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,28 +29,158 @@
       <file leaf-file-name="paintDev.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintDev/paintDev.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="68">
               <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+=======
+            <state relative-caret-position="391">
+              <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+>>>>>>> parent of c12f116... added facebook prompt
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+=======
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a#1;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#img#0;n#a#1;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#textarea#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+                <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
+>>>>>>> parent of c12f116... added facebook prompt
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="paintScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paintDev/paintScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+=======
+      <file leaf-file-name="popupScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+              <folding>
+                <element signature="e#1377#1690#0" expanded="false" />
+                <element signature="n#!!block;n#informationLink#0" expanded="false" />
+                <element signature="n#!!block;n#fbPage#0" expanded="false" />
+                <element signature="n#!!block;n#gotoOptions#0" expanded="false" />
+                <element signature="n#!!block;n#uploadLink#0" expanded="false" />
+                <element signature="n#!!block;n#select#0" expanded="false" />
+                <element signature="n#!!block;n#imgurUp#0" expanded="false" />
+                <element signature="n#!!block;n#other#0" expanded="false" />
+                <element signature="n#!!block;n#saveOptions#0" expanded="false" />
+              </folding>
+>>>>>>> parent of c12f116... added facebook prompt
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="paintStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintDev/paintStyle.css">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+      <file leaf-file-name="working table.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backups/working table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="8" />
+              <folding>
+                <element signature="n#table#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+>>>>>>> parent of c12f116... added facebook prompt
         </entry>
       </file>
     </leaf>
@@ -139,6 +275,7 @@
         <option value="$PROJECT_DIR$/Extension/imgur.min.js" />
         <option value="$PROJECT_DIR$/Extension/imgurUp.html" />
         <option value="$PROJECT_DIR$/Extension/imgur.js" />
+        <option value="$PROJECT_DIR$/Extension/popup.css" />
         <option value="$PROJECT_DIR$/backups/card.txt" />
         <option value="$PROJECT_DIR$/docs/infoScript.js" />
         <option value="$PROJECT_DIR$/docs/info.css" />
@@ -146,9 +283,14 @@
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/backups/working table.txt" />
         <option value="$PROJECT_DIR$/Extension/optionScript.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/backups/working table.html" />
         <option value="$PROJECT_DIR$/Extension/popupScript.js" />
         <option value="$PROJECT_DIR$/Extension/eventPage.js" />
+=======
+        <option value="$PROJECT_DIR$/Extension/popupScript.js" />
+        <option value="$PROJECT_DIR$/backups/working table.html" />
+>>>>>>> parent of c12f116... added facebook prompt
         <option value="$PROJECT_DIR$/Extension/popup.html" />
         <option value="$PROJECT_DIR$/Extension/popup.css" />
         <option value="$PROJECT_DIR$/paintDev/paintStyle.css" />
@@ -181,6 +323,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,13 +340,35 @@
             <path>
               <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
               <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="paintDev" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="arrows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Rainbow-Cursor-Extension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Rainbow-Cursor-Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="cursors" type="462c0819:PsiDirectoryNode" />
+              <item name="pointers" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of c12f116... added facebook prompt
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> parent of c12f116... added facebook prompt
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,20 +489,29 @@
       <workItem from="1520992530294" duration="67000" />
       <workItem from="1521151876786" duration="2295000" />
       <workItem from="1521778025337" duration="645000" />
+<<<<<<< HEAD
       <workItem from="1522036816813" duration="1070000" />
       <workItem from="1522046482184" duration="562000" />
       <workItem from="1522184737910" duration="2364000" />
       <workItem from="1522901635325" duration="2355000" />
       <workItem from="1522959162969" duration="1341000" />
       <workItem from="1523056433640" duration="1245000" />
+=======
+      <workItem from="1522036816813" duration="1001000" />
+>>>>>>> parent of c12f116... added facebook prompt
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="142915000" />
+=======
+    <option name="totallyTimeSpent" value="134979000" />
+>>>>>>> parent of c12f116... added facebook prompt
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -535,7 +710,25 @@
     <entry file="file://$PROJECT_DIR$/Extension/imgur.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
+<<<<<<< HEAD
           <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+=======
+          <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/infoScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> parent of c12f116... added facebook prompt
         </state>
       </provider>
     </entry>
@@ -574,11 +767,35 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/backups/working table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-end-line="93" selection-end-column="8" />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="e#1377#1690#0" expanded="false" />
+            <element signature="n#!!block;n#informationLink#0" expanded="false" />
+            <element signature="n#!!block;n#fbPage#0" expanded="false" />
+            <element signature="n#!!block;n#gotoOptions#0" expanded="false" />
+            <element signature="n#!!block;n#uploadLink#0" expanded="false" />
+            <element signature="n#!!block;n#select#0" expanded="false" />
+            <element signature="n#!!block;n#imgurUp#0" expanded="false" />
+            <element signature="n#!!block;n#other#0" expanded="false" />
+            <element signature="n#!!block;n#saveOptions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/acorn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> parent of c12f116... added facebook prompt
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/page.js">
@@ -605,6 +822,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Extension/popup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -626,9 +844,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+=======
+    <entry file="file://$PROJECT_DIR$/Extension/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="369" column="33" lean-forward="true" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+>>>>>>> parent of c12f116... added facebook prompt
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#1;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#1;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#textarea#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1522037788142" expanded="false" signature="21798:21817" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="22305:22324" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="23316:23335" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="28606:28625" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="29115:29134" ph="..." />
+            <marker date="1522037788142" expanded="false" signature="30105:30124" ph="..." />
+>>>>>>> parent of c12f116... added facebook prompt
           </folding>
         </state>
       </provider>
