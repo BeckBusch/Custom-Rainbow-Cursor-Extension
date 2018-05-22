@@ -4,6 +4,15 @@ td {
 
 }
 
+#scroll-tab-1, #scroll-tab-2, #scroll-tab-3, #scroll-tab-4, #scroll-tab-5, #scroll-tab-6, #scroll-tab-7 .page-content{
+    padding:5px;
+}
+#previews {
+    padding:5px;
+}
+#fixed-tab-2, #fixed-tab-3, #fixed-tab-4 .page-content{
+    padding:5px;
+}
 .demoing{
     display: inline-block;
     margin-top :5px;

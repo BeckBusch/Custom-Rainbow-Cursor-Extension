@@ -21,8 +21,11 @@ chosen = document.getElementsByClassName('chosen');
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
 }
+//trail
+document.getElementById('size-slider').addEventListener('change',trailSize);
+document.getElementById("trail-dot").addEventListener('click', trail);
 //id
-document.getElementById("default").addEventListener('click', select, true)
+document.getElementById("default").addEventListener('click', select, true);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
@@ -31,6 +34,11 @@ document.getElementById("other2").addEventListener('click', imgurUp);
 document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
+
+//onload start
+//the idea behind this, is to call all the user preferences out of chrome storage, so that the defualt valuse of all the inputs are set to what teh user last used. this should make the ui more welcoming to the user.
+//onload end
+
 
 //beforeunload start
 window.addEventListener('beforeunload', function() {
@@ -44,6 +52,22 @@ window.addEventListener('beforeunload', function() {
 });
 
 //functions start
+function trail (){
+    selected = this.id;
+    chrome.storage.sync.set(
+        {"trail": selected}, function () {
+            document.getElementById("trail-result").value = "Saved Option as: " + selected;
+        });
+}
+function trailSize(){
+    sizeValue = this.value;
+    demo = document.getElementById("dotTrailDemo");
+    demo.style.height = String(sizeValue) + "px";
+    demo.style.width = String(sizeValue) + "px";
+    demo.style.borderRadius = String(sizeValue/2) + "px";
+    chrome.storage.sync.set({'size': sizeValue})
+}
+
 function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
@@ -103,7 +127,5 @@ function saveOptions() {
 
     chrome.storage.sync.set(
         {"option": selection, "link": custom}, function () {
-            document.getElementById("result").value = "Saved Option as: " + selection;
-
         });
 }
