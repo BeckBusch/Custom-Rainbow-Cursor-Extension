@@ -23,7 +23,10 @@ chrome.storage.sync.get('option', function (obj) {
 
 
 chrome.storage.sync.get('trail', function (obj) {
-    if (obj['trail'] == "trail-dot") {
+    if(obj['trail'] == undefined) {
+       return;
+    }
+    else if (obj['trail'] == "trail-dot") {
         chrome.storage.sync.get(['color', 'size'], function(obj){
             var dots = [],
                 mouse = {

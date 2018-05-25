@@ -1,0 +1,43 @@
+<h4>UPDATE 4.1.0</h4>
+<p>
+Added a large number of cursors, including:
+Overwatch, Animals, Emoji
+</p>
+<h4>UPDATE 4.0.0</h4>
+<p>
+A long overdue update to the UI. The menu is no longer confusing, your cursor selection will now autosave, and the image uploader is now part of the popup.
+</p>
+<h4>UPDATE 3.3.5</h4>
+<p>
+Update 3.3.5 introduces a lovely material design UI update, and an image uploader. The image uploader allows you to upload images from your computer and use them as cursors.
+</p>
+<h4>UPDATE 3.3.4</h4>
+<p>
+Update 3.3.4 is the spooky halloween update adding a new cursor with a spooky surprise and an update to the popup design.
+The main purpose of the design is to make way for several new designs to be added in a way that does not change the layout much.
+I hope you all like it, email me at bbusch.developer@gmail.com if you find any bugs, and have a spooky halloween!k “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+</p>
+<h5>UPDATE 3.3.3</h5>
+<p>
+Update 3.3.3 features four new cursors as well as a redesign of the popup and this information page.
+</p>
+<h5>UPDATE 3.3.2</h5>
+<p>
+Added Google Analytics so that I can make better choices.
+</p>
+<h5>UPDATE 3.3.0</h5>
+<p>
+Added Pointer Feature. The cursor now changes to a pointer finger when hovering over a link or button.
+</p>
+<h5>UPDATE 3.2.0</h5>
+<p>
+In this update, I added the feature to change your cursor from within any webpage.
+Simply click on the icon in the top right-hand corner, and select your cursor from there.
+</p>
+
+<h5>UPDATE 3.0.0</h5>
+<p>
+In this new update, I have added the ability to choose from a selection of cursors, as well as the ability to use your own image.
+To select a cursor, right click on the icon in the top right, and select options. Next, select a cursor and if you are happy with it, press Save Changes.
+Also, I have removed my Fish Cursor extension and replaced it with a fish cursor option.
+</p>

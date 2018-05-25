@@ -1,16 +1,23 @@
 td {
     margin: auto;
     width: 80px;
-
 }
-
+.mdl-cell {
+    text-align: -webkit-center;
+}
+.colorButton:hover {
+    background-image: none !important;
+}
+.colorButton:enabled:active {
+    background-image: none !important;
+}
 #scroll-tab-1, #scroll-tab-2, #scroll-tab-3, #scroll-tab-4, #scroll-tab-5, #scroll-tab-6, #scroll-tab-7 .page-content{
     padding:5px;
 }
 #previews {
     padding:5px;
 }
-#fixed-tab-2, #fixed-tab-3, #fixed-tab-4 .page-content{
+#fixed-tab-2, #fixed-tab-3, #fixed-tab-4, #fixed-tab-5 .page-content{
     padding:5px;
 }
 .demoing{

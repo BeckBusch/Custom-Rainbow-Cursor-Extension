@@ -29,10 +29,11 @@
         </div>
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#fixed-tab-5" class="mdl-layout__tab" id="tab5">Home</a>
             <a href="#fixed-tab-1" class="mdl-layout__tab is-active" id="tab1">Cursors</a>
+            <a href="#fixed-tab-4" class="mdl-layout__tab" id="tab4">Trail</a>
             <a href="#fixed-tab-2" class="mdl-layout__tab" id="tab2">URL</a>
             <a href="#fixed-tab-3" class="mdl-layout__tab" id="tab3">Upload</a>
-            <a href="#fixed-tab-4" class="mdl-layout__tab" id="tab4">Trail</a>
         </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -41,7 +42,6 @@
             <a id="infoLink" class="mdl-navigation__link" href="">Information</a>
             <a class="mdl-navigation__link" id="upLink" href="">Imgur Upload</a>
             <a class="mdl-navigation__link" id="fb2" href="">Facebook Page</a>
-            <a class="mdl-navigation__link" href="">Link</a>
         </nav>
     </div>
     <main class="mdl-layout__content">
@@ -52,12 +52,12 @@
                     <header class="mdl-layout__header">
                         <!-- Tabs mdl-layout--large-screen-only -->
                         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                            <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Featured</a>
-                            <a href="#scroll-tab-2" class="mdl-layout__tab">Colors</a>
-                            <a href="#scroll-tab-3" class="mdl-layout__tab">Animals</a>
-                            <a href="#scroll-tab-4" class="mdl-layout__tab">Gaming</a>
-                            <a href="#scroll-tab-5" class="mdl-layout__tab">Emoji</a>
-                            <a href="#scroll-tab-6" class="mdl-layout__tab mdl-layout--small-screen-only">Extra</a>
+                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab is-active">Featured</a>
+                            <a href="#scroll-tab-2" id="colors" class="mdl-layout__tab">Colors</a>
+                            <a href="#scroll-tab-3" id="animals" class="mdl-layout__tab">Animals</a>
+                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab">Overwatch</a>
+                            <a href="#scroll-tab-5" id="emoji" class="mdl-layout__tab">Emoji</a>
+                            <a href="#scroll-tab-6" id="extra" class="mdl-layout__tab mdl-layout--small-screen-only">Extra</a>
 
                             <a href="#scroll-tab-7" class="mdl-layout__tab mdl-layout--large-screen-only">Food</a>
                         </div>
@@ -458,7 +458,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </section><!--gaming-->
+                        </section><!--Overwatch-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-5">
                             <div class="page-content">
                                 <table>
@@ -628,40 +628,210 @@
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-4">
             <div class="page-content">
-
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--1-col">
-                        <div id="dotTrailDemo" style="width:6px; height:6px; border-radius: 3px; background: teal;"></div>
+                <h4 style="display: contents">Trails:</h4>
+                <div style=" border-color: #3f3f3f; border-style: dashed">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    style="line-height: normal; margin-top: 1em;" id="trail-none">
+                                No Trail
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <div style="width:14px; height:14px; border-radius: 7px; background: teal;"></div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="trail-dot">
+                                Dot
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
                     </div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
 
-                    <div class="mdl-cell mdl-cell--1-col">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="trail-dot">Dot</button>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <h5 style="display:contents">Color:</h5>
+                            <button id="#466eff" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #466eff">
+                            </button>
+                            <button id="#2dde2c" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #2dde2c">
+                            </button>
+                            <button id="#ff2723" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #ff2723">
+                            </button>
+                            <button id="#ff30e2" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #ff30e2">
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--8-col-desktop"></div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <h5 style="display: contents;">Size:</h5>
+                            <div id="dotTrailDemo"
+                                 style="width:6px; height:6px; border-radius: 3px; background: teal; display:inline-block"></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <input id="size-slider" class="mdl-slider mdl-js-slider" title="Size Slider" type="range"
+                                   min="4" max="30" value="6"
+                                   tabindex="0">
+                        </div>
                     </div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                </div>
-
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--1-col"></div>
-                    <div class="mdl-cell mdl-cell--1-col"><button class="mdl-button mdl-js-button mdl-button--raised" style="background-color: #466eff">
-                    </button></div>
-                    <div class="mdl-cell mdl-cell--1-col"><button class="mdl-button mdl-js-button mdl-button--raised">
-                        Button
-                    </button></div>
-                    <div class="mdl-cell mdl-cell--1-col"><button class="mdl-button mdl-js-button mdl-button--raised">
-                        Button
-                    </button></div>
-                    <div class="mdl-cell mdl-cell--3-col"></div>
                 </div>
                 <output id="trail-result"></output>
+                <br>
+               <!-- <h4 style="display: contents">Premium Trails:</h4>
+                <div style=" border-color: #3f3f3f; border-style: dashed">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell&#45;&#45;1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell&#45;&#45;1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell&#45;&#45;1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell&#45;&#45;1-col">
+                        </div>
+                    </div>
+                    &lt;!&ndash;                    <div class="mdl-grid">
+                                            <div class="mdl-cell mdl-cell&#45;&#45;4-col">
+                                                <h5 style="display:contents">Color:</h5>
+                                            </div>
+                                            <div class="mdl-cell mdl-cell&#45;&#45;1-col">
+                                            </div>
+                                            <div class="mdl-cell mdl-cell&#45;&#45;3-col">
+                                            </div>
+                                        </div>&ndash;&gt;
+                </div>-->
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-5">
+            <div class="page-content">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#home-panel" class="mdl-tabs__tab is-active">Home</a>
+                        <a href="#updates-panel" class="mdl-tabs__tab">Updates</a>
+                        <a href="#help-panel" class="mdl-tabs__tab">Help</a>
+                    </div>
+                    <div class="mdl-tabs__panel is-active" id="home-panel">
+                        <h5>Custom Cursor</h5>
+                        <p>
+                            Custom Cursor chrome extension lets you personalize your browsing experience by changing your cursor icon.
+                        </p>
+                        <ul>
+                            <li>Over 50 different cursors to chose from</li>
+                            <li>Customizable trails that flow behind your cursor</li>
+                            <li>URL uploader allows you to use any compatible image on the internet</li>
+                            <li>Imgur image hosting allows you to upload an image from your computer</li>
+                        </ul>
+                    </div>
+                    <div class="mdl-tabs__panel" id="updates-panel">
+                        <!-- use h4 for large updates, h3 for small updates
+                         version number format: large feature . smaller feature . bug fix
+                         -->
+                        <h4>UPDATE 5.0.0</h4>
+                        <p>
+                            Added Cursor Trails!
+                            Also added the home tab, putting update log and help in the popup.
+                        </p>
+                        <h4>UPDATE 4.1.0</h4>
+                        <p>
+                            Added a large number of cursors, including:
+                            Overwatch, Animals, Emoji
+                        </p>
+                        <h4>UPDATE 4.0.0</h4>
+                        <p>
+                            A long overdue update to the UI. The menu is no longer confusing, your cursor selection will
+                            now autosave, and the image uploader is now part of the popup.
+                        </p>
+                        <h4>UPDATE 3.3.5</h4>
+                        <p>
+                            Update 3.3.5 introduces a lovely material design UI update, and an image uploader. The image
+                            uploader allows you to upload images from your computer and use them as cursors.
+                        </p>
+                        <h4>UPDATE 3.3.4</h4>
+                        <p>
+                            Update 3.3.4 is the spooky halloween update adding a new cursor with a spooky surprise and
+                            an update to the popup design.
+                            The main purpose of the design is to make way for several new designs to be added in a way
+                            that does not change the layout much.
+                            I hope you all like it, email me at bbusch.developer@gmail.com if you find any bugs, and
+                            have a spooky halloween!k “Edit Text” or double click me to add your own content and make
+                            changes to the font. I’m a great place for you to tell a story and let your users know a
+                            little more about you.
+                        </p>
+                        <h5>UPDATE 3.3.3</h5>
+                        <p>
+                            Update 3.3.3 features four new cursors as well as a redesign of the popup and this
+                            information page.
+                        </p>
+                        <h5>UPDATE 3.3.2</h5>
+                        <p>
+                            Added Google Analytics so that I can make better choices.
+                        </p>
+                        <h5>UPDATE 3.3.0</h5>
+                        <p>
+                            Added Pointer Feature. The cursor now changes to a pointer finger when hovering over a link
+                            or button.
+                        </p>
+                        <h5>UPDATE 3.2.0</h5>
+                        <p>
+                            In this update, I added the feature to change your cursor from within any webpage.
+                            Simply click on the icon in the top right-hand corner, and select your cursor from there.
+                        </p>
+
+                        <h5>UPDATE 3.0.0</h5>
+                        <p>
+                            In this new update, I have added the ability to choose from a selection of cursors, as well
+                            as the ability to use your own image.
+                            To select a cursor, right click on the icon in the top right, and select options. Next,
+                            select a cursor and if you are happy with it, press Save Changes.
+                            Also, I have removed my Fish Cursor extension and replaced it with a fish cursor option.
+                        </p>
+                    </div>
+                    <div class="mdl-tabs__panel" id="help-panel">
+                        <h6>My Email is: bbusch.developer@gmail.com</h6>
+                        <h4> I CAN'T SELECT A CURSOR! / MY CURSOR ISN'T SHOWING UP!</h4>
+                        <p>
+                            The cursor menu now auto-saves. To select a cursor, click the button below the cursor that
+                            you want, and your choice will automatically save.
+                            You can test your new cursor in the options menu, but it will not appear in your webpage
+                            straight away.
+                            Once you have selected your cursor, it is important that you refresh any tabs that you have
+                            open.
+                            Your new cursor will not appear until you have refreshed the tab.
+                            You only need to refresh tabs when changing the cursor, after that it will load
+                            automatically.
+                        </p>
+                        <h4>THE CURSOR IS NOT WORKING ON SOME SITES / TOOLBARS</h4>
+                        <p>
+                            Chrome extensions can do many things, including running code. This makes them a good way to
+                            hack users.
+                            To stop this from happening, chrome extensions are not allowed to work on anything that is
+                            not the webpage. This includes:
+                        <ul>
+                            <li>
+                                The bookmarks bar
+                            </li>
+                            <li>
+                                The URL bar
+                            </li>
+                            <li>
+                                The tabs bar and the window controls (minimize, maximize, close)
+                            </li>
+                            <li>
+                                The main scroll bar
+                            </li>
+                        </ul>
+                        <p>
+                            Most importantly​, the extension will not work on the Chrome Web Store or most of the chrome
+                            generated pages. Chrome generated pages are pages that begin with "chrome://" and contain
+                            important and private information such as your history or your settings.
+                        </p>
 
 
-                <input type="color" value="blue">
-                <input id="size-slider" class="mdl-slider mdl-js-slider" type="range" min="4" max="30" value="6" tabindex="0">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -671,8 +841,16 @@
 
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab1">Pick a Cursor</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab2">Use a URL</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab4">Add a Trail</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab5">Helpful Information</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab3">Upload an Image</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="default">Reset the Cursos</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="fb">Facebook Page</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="featured">Featured Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="colors">Colored Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="animals">Animal Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="OW">Overwatch Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="emoji">Emoji Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="extra">More Cursors</div>
 </body>
 </html>

@@ -14,6 +14,7 @@ _gaq.push(['_trackPageview']);
 custom = "";
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
+colButs = document.getElementsByClassName('colorButton');
 //varibles end
 
 //eventlisners start
@@ -21,7 +22,11 @@ chosen = document.getElementsByClassName('chosen');
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
 }
+for (i=0; i <colButs.length; i ++) {
+    document.getElementById(colButs[i].id).addEventListener('click', trailCol)
+}
 //trail
+document.getElementById('trail-none').addEventListener('click', trailNone);
 document.getElementById('size-slider').addEventListener('change',trailSize);
 document.getElementById("trail-dot").addEventListener('click', trail);
 //id
@@ -52,12 +57,21 @@ window.addEventListener('beforeunload', function() {
 });
 
 //functions start
-function trail (){
+function trailNone(){
+    chrome.storage.sync.set({'trail': "none"})
+    document.getElementById("trail-result").value = "Removed Trail";
+
+}
+function trail () {
     selected = this.id;
-    chrome.storage.sync.set(
-        {"trail": selected}, function () {
-            document.getElementById("trail-result").value = "Saved Option as: " + selected;
-        });
+    if (chrome.storage.sync.get('color', function(obj){return obj['color']}) == undefined) {
+        chrome.storage.sync.set({"color": '#4663ff'})
+    }
+    if (chrome.storage.sync.get('size', function(obj){return obj['size']}) == undefined) {
+        chrome.storage.sync.set({"size": 6})
+    }
+    chrome.storage.sync.set({"trail": selected});
+    document.getElementById("trail-result").value = "Saved Option as: " + selected;
 }
 function trailSize(){
     sizeValue = this.value;
@@ -65,7 +79,15 @@ function trailSize(){
     demo.style.height = String(sizeValue) + "px";
     demo.style.width = String(sizeValue) + "px";
     demo.style.borderRadius = String(sizeValue/2) + "px";
-    chrome.storage.sync.set({'size': sizeValue})
+    chrome.storage.sync.set({'size': sizeValue});
+    document.getElementById("trail-result").value = "Saved Size as: " + String(sizeValue);
+}
+function trailCol(){
+    selectedCol = this.id;
+    document.getElementById("dotTrailDemo").style.backgroundColor = selectedCol;
+    chrome.storage.sync.set(
+        {"color": selectedCol})
+    document.getElementById("trail-result").value = "Saved Color as: " + selectedCol;
 }
 
 function informationLink (){
@@ -120,7 +142,7 @@ function other() {
         document.body.style.cursor = "url(" + custom + "), auto";
     }
     saveOptions()
-};
+}
 
 function saveOptions() {
     _gaq.push(['_trackEvent', selection, 'clicked']);
