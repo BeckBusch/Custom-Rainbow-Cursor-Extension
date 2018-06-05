@@ -34,6 +34,32 @@ chrome.storage.sync.get('trail', function (obj) {
     if(obj['trail'] == undefined) {
        return;
     }
+    else if (obj['trail'] == "google") {
+        var colorArray = ["#0266C8","#F90101","#F2B50F","#00933B"];
+        document.addEventListener('mousemove', function(event){
+            var curColor = colorArray[Math.floor(Math.random()*colorArray.length)];
+            var curX = event.pageX;
+            var curY = event.pageY;
+            var width = Math.random()*50;
+            var height = width;
+            var item = document.createElement('div');
+            item.style.position = 'absolute';
+            item.style.display = 'inline-block';
+            item.style.borderRadius = '50%';
+            item.style.margin = '4px';
+            item.style.pointerEvents = 'none';
+            item.style.boxShadow = '0 0 10px 0 rgba(0,0,0,.3)';
+            item.style.left = String(curX) + "px";
+            item.style.top = String(curY) + "px";
+            item.style.width = String(width) + "px";
+            item.style.height = String(height) + "px";
+            item.style.backgroundColor = String(curColor);
+            setTimeout(function(){item.style.opacity = '0';}, 500);
+            document.body.appendChild(item);
+        });
+
+
+    }
     else if (obj['trail'] == "trail-dot") {
         chrome.storage.sync.get(['color', 'size'], function(obj){
             var dots = [],
@@ -90,5 +116,4 @@ chrome.storage.sync.get('trail', function (obj) {
             animate();
         })
     }
-    else if (obj['trail'] == 'google' &&  ){}
 });

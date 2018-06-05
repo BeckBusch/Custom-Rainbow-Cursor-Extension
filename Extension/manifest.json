@@ -20,7 +20,7 @@
     "128": "resources/icon128.png" },
 
   "permissions": [
-    "storage", "clipboardRead", "http://beckbuschgithub.sytes.net/"
+    "storage", "tabs", "clipboardRead", "http://beckbusch.github.io//"
   ],
   "homepage_url": "http://beckbuschgithub.sytes.net/Custom-Rainbow-Cursor-Extension/",
 

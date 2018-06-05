@@ -23,6 +23,7 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens.  !hiding in small screens has been removed -->
             <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="helpEmail">Help Email</a>
                 <a class="mdl-navigation__link" id="default">Reset Cursor</a>
                 <a class="mdl-navigation__link" id="fb" style="background-color: rgb(68,138,255)"><img
                         src="resources/facebook-box.png"></a></nav>
@@ -687,8 +688,14 @@
                 <div style=" border-color: #a67c00; border-style: dashed">
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="googleTrail">Google
+                            </button>
                         </div>
                         <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="heavyTrail">Heavy
+                            </button>
                         </div>
                         <div class="mdl-cell mdl-cell--1-col">
                         </div>
@@ -696,6 +703,36 @@
                         </div>
                     </div>
                 </div>
+                <!-- Three Line List with secondary info and action -->
+                <ul class="demo-list-three mdl-list">
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>Googlicious</span>
+                            <span class="mdl-list__item-text-body">
+                                Googlicious mouse trail was developed by Praveen Puglia and is used under the MIT licence. You can find the source
+                                <a class="links" id="googleDetails" href="https://codepen.io/praveenpuglia/pen/wpduH">here</a>.
+                            </span>
+                        </span>
+                    </li>
+
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>Title</span>
+                            <span class="mdl-list__item-text-body">
+                                body
+                            </span>
+                        </span>
+                    </li>
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>title</span>
+                            <span class="mdl-list__item-text-body">
+                                body
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-5">
@@ -709,7 +746,8 @@
                     <div class="mdl-tabs__panel is-active" id="home-panel">
                         <h5>Custom Cursor</h5>
                         <p>
-                            Custom Cursor chrome extension lets you personalize your browsing experience by changing your cursor icon.
+                            Custom Cursor chrome extension lets you personalize your browsing experience by changing
+                            your cursor icon.
                         </p>
                         <ul>
                             <li>Over 50 different cursors to chose from</li>

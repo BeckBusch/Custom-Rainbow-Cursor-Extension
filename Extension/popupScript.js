@@ -12,6 +12,7 @@ _gaq.push(['_trackPageview']);
 
 //varibles start
 custom = "";
+links = document.getElementsByClassName('links');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
 colButs = document.getElementsByClassName('colorButton');
@@ -25,11 +26,16 @@ for (i=0; i < buts.length; i ++){
 for (i=0; i <colButs.length; i ++) {
     document.getElementById(colButs[i].id).addEventListener('click', trailCol)
 }
+for (i=0; i<links.length; i ++){
+    document.getElementById(links[i].id).addEventListener('click', linksFunct)
+}
 //trail
+document.getElementById('googleTrail').addEventListener('click', googleTrail);
 document.getElementById('trail-none').addEventListener('click', trailNone);
 document.getElementById('size-slider').addEventListener('change',trailSize);
-document.getElementById("trail-dot").addEventListener('click', trail);
+document.getElementById("trail-dot").addEventListener('click', trailDot);
 //id
+document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("default").addEventListener('click', select, true);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
@@ -44,25 +50,40 @@ document.getElementById('fb2').addEventListener('click', fbPage);
 //the idea behind this, is to call all the user preferences out of chrome storage, so that the defualt valuse of all the inputs are set to what teh user last used. this should make the ui more welcoming to the user.
 //onload end
 
+function reloadPage(){
+    chrome.tabs.getSelected(null, function(tab) {
+        chrome.tabs.reload(tab.id);
+    });
+}
 
 //beforeunload start
-window.addEventListener('beforeunload', function() {
-    var r = confirm("To change your cursor,\nyou need to reload the page.\nIs it ok to reload now?\n");
-    if (r == true) {
-        chrome.tabs.getSelected(null, function(tab) {
-            var code = 'window.location.reload();';
-            chrome.tabs.executeScript(tab.id, {code: code});
-        });
-    }
+window.addEventListener('unload', function() {
+    reloadPage()
+
 });
 
 //functions start
+function linksFunct(){
+    if (this.id == "googleDetails") {
+        parent.window.open('https://codepen.io/praveenpuglia/details/wpduH/');}
+    else if (this.id == "googleFull") {
+        parent.window.open('https://codepen.io/praveenpuglia/full/wpduH/');}
+    else if (this.id == "heavyDetails") {
+        parent.window.open('https://codepen.io/Tibixx/details/odwMMm');}
+    else if (this.id == "heavyFull") {
+        parent.window.open('https://codepen.io/Tibixx/full/odwMMm/');}
+}
+
 function trailNone(){
-    chrome.storage.sync.set({'trail': "none"})
+    chrome.storage.sync.set({'trail': "none"});
     document.getElementById("trail-result").value = "Removed Trail";
 
 }
-function trail () {
+function googleTrail(){
+    chrome.storage.sync.set({'trail': 'google'})
+}
+
+function trailDot () {
     selected = this.id;
     if (chrome.storage.sync.get('color', function(obj){return obj['color']}) == undefined) {
         chrome.storage.sync.set({"color": '#4663ff'})
@@ -86,8 +107,16 @@ function trailCol(){
     selectedCol = this.id;
     document.getElementById("dotTrailDemo").style.backgroundColor = selectedCol;
     chrome.storage.sync.set(
-        {"color": selectedCol})
+        {"color": selectedCol});
     document.getElementById("trail-result").value = "Saved Color as: " + selectedCol;
+}
+
+function helpEmail (){
+    chrome.storage.sync.get(function(obj){
+        window.open('mailto:bbusch.developer@gmail.com?subject=Help Email&body=(This stuff helps me solve your problem) ' +
+            ('option: ' + obj.option + ' cursor: ' + obj.cursor + ' color: ' + obj.color + ' size: ' + obj.size));
+    });
+
 }
 
 function informationLink (){
@@ -150,4 +179,5 @@ function saveOptions() {
     chrome.storage.sync.set(
         {"option": selection, "link": custom}, function () {
         });
+    reloadPage()
 }
