@@ -44,6 +44,17 @@ window.addEventListener('beforeunload', function() {
 });
 
 //functions start
+
+function reloadTabs() {
+    chrome.tabs.getAllInWindow(null, function(tabs) {
+        for (var i = 0; i < tabs.length; i++) {
+            chrome.tabs.update(tabs[i].id, {
+                url: tabs[i].url
+            });
+        }
+    });
+}
+
 function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
@@ -106,4 +117,5 @@ function saveOptions() {
             document.getElementById("result").value = "Saved Option as: " + selection;
 
         });
+    reloadTabs();
 }
