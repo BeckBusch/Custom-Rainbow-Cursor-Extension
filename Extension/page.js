@@ -1,13 +1,5 @@
 var imgURL = chrome.runtime.getURL("cursors/");
 
-function paymentsCheck(){
-    google.payments.inapp.getPurchases({
-    'parameters': {'env': 'prod'},
-    'success': onLicenseUpdate,
-    'failure': onLicenseUpdateFail
-});
-};
-
 chrome.storage.sync.get('option', function (obj) {
 
     if (obj['option'] == "other") {
