@@ -23,17 +23,6 @@ colButs = document.getElementsByClassName('colorButton');
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
 }
-for (i=0; i <colButs.length; i ++) {
-    document.getElementById(colButs[i].id).addEventListener('click', trailCol)
-}
-for (i=0; i<links.length; i ++){
-    document.getElementById(links[i].id).addEventListener('click', linksFunct)
-}
-//trail
-document.getElementById('googleTrail').addEventListener('click', googleTrail);
-document.getElementById('trail-none').addEventListener('click', trailNone);
-document.getElementById('size-slider').addEventListener('change',trailSize);
-document.getElementById("trail-dot").addEventListener('click', trailDot);
 //id
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("default").addEventListener('click', select, true);
@@ -45,55 +34,6 @@ document.getElementById("other2").addEventListener('click', imgurUp);
 document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
-
-//functions start
-function linksFunct(){
-    if (this.id == "googleDetails") {
-        parent.window.open('https://codepen.io/praveenpuglia/details/wpduH/');}
-    else if (this.id == "googleFull") {
-        parent.window.open('https://codepen.io/praveenpuglia/full/wpduH/');}
-    else if (this.id == "heavyDetails") {
-        parent.window.open('https://codepen.io/Tibixx/details/odwMMm');}
-    else if (this.id == "heavyFull") {
-        parent.window.open('https://codepen.io/Tibixx/full/odwMMm/');}
-}
-
-function trailNone(){
-    chrome.storage.sync.set({'trail': "none"});
-    document.getElementById("trail-result").value = "Removed Trail";
-
-}
-function googleTrail(){
-    chrome.storage.sync.set({'trail': 'google'})
-}
-
-function trailDot () {
-    selected = this.id;
-    if (chrome.storage.sync.get('color', function(obj){return obj['color']}) == undefined) {
-        chrome.storage.sync.set({"color": '#4663ff'})
-    }
-    if (chrome.storage.sync.get('size', function(obj){return obj['size']}) == undefined) {
-        chrome.storage.sync.set({"size": 6})
-    }
-    chrome.storage.sync.set({"trail": selected});
-    document.getElementById("trail-result").value = "Saved Option as: " + selected;
-}
-function trailSize(){
-    sizeValue = this.value;
-    demo = document.getElementById("dotTrailDemo");
-    demo.style.height = String(sizeValue) + "px";
-    demo.style.width = String(sizeValue) + "px";
-    demo.style.borderRadius = String(sizeValue/2) + "px";
-    chrome.storage.sync.set({'size': sizeValue});
-    document.getElementById("trail-result").value = "Saved Size as: " + String(sizeValue);
-}
-function trailCol(){
-    selectedCol = this.id;
-    document.getElementById("dotTrailDemo").style.backgroundColor = selectedCol;
-    chrome.storage.sync.set(
-        {"color": selectedCol});
-    document.getElementById("trail-result").value = "Saved Color as: " + selectedCol;
-}
 
 function helpEmail (){
     chrome.storage.sync.get(function(obj){
