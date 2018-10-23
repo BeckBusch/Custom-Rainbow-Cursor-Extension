@@ -12,8 +12,10 @@ _gaq.push(['_trackPageview']);
 
 //varibles start
 custom = "";
+links = document.getElementsByClassName('links');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
+colButs = document.getElementsByClassName('colorButton');
 //varibles end
 
 //eventlisners start
@@ -22,7 +24,8 @@ for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
 }
 //id
-document.getElementById("default").addEventListener('click', select, true)
+document.getElementById("helpEmail").addEventListener('click', helpEmail);
+document.getElementById("default").addEventListener('click', select, true);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
@@ -32,18 +35,14 @@ document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
 
-//beforeunload start
-window.addEventListener('beforeunload', function() {
-    var r = confirm("To change your cursor,\nyou need to reload the page.\nIs it ok to reload now?\n");
-    if (r == true) {
-        chrome.tabs.getSelected(null, function(tab) {
-            var code = 'window.location.reload();';
-            chrome.tabs.executeScript(tab.id, {code: code});
-        });
-    }
-});
+function helpEmail (){
+    chrome.storage.sync.get(function(obj){
+        window.open('mailto:bbusch.developer@gmail.com?subject=Help Email&body=(This stuff helps me solve your problem) ' +
+            ('option: ' + obj.option + ' cursor: ' + obj.cursor + ' color: ' + obj.color + ' size: ' + obj.size));
+    });
 
-//functions start
+}
+
 function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
@@ -96,14 +95,12 @@ function other() {
         document.body.style.cursor = "url(" + custom + "), auto";
     }
     saveOptions()
-};
+}
 
 function saveOptions() {
     _gaq.push(['_trackEvent', selection, 'clicked']);
 
     chrome.storage.sync.set(
         {"option": selection, "link": custom}, function () {
-            document.getElementById("result").value = "Saved Option as: " + selection;
-
         });
 }
