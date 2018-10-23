@@ -46,22 +46,6 @@ document.getElementById('fb').addEventListener('click', fbPage);
 document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
 
-//onload start
-//the idea behind this, is to call all the user preferences out of chrome storage, so that the defualt valuse of all the inputs are set to what teh user last used. this should make the ui more welcoming to the user.
-//onload end
-
-function reloadPage(){
-    chrome.tabs.getSelected(null, function(tab) {
-        chrome.tabs.reload(tab.id);
-    });
-}
-
-//beforeunload start
-window.addEventListener('unload', function() {
-    reloadPage()
-
-});
-
 //functions start
 function linksFunct(){
     if (this.id == "googleDetails") {
@@ -179,5 +163,4 @@ function saveOptions() {
     chrome.storage.sync.set(
         {"option": selection, "link": custom}, function () {
         });
-    reloadPage()
 }
