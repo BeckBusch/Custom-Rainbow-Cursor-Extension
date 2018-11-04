@@ -31,9 +31,7 @@ document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
 document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("other2").addEventListener('click', imgurUp);
-document.getElementById('fb').addEventListener('click', fbPage);
-document.getElementById('fb2').addEventListener('click', fbPage);
-//eventlisners end
+    //eventlisners end
 
 function helpEmail (){
     chrome.storage.sync.get(function(obj){
