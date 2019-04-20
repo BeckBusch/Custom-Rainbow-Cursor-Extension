@@ -16,6 +16,7 @@ links = document.getElementsByClassName('links');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
 colButs = document.getElementsByClassName('colorButton');
+pre = document.getElementsByClassName('buy_pre_button');
 //varibles end
 
 //eventlisners start
@@ -23,8 +24,12 @@ colButs = document.getElementsByClassName('colorButton');
 for (i=0; i < buts.length; i ++){
     document.getElementById(buts[i].id).addEventListener('click', select, true)
 }
+for (i=0; i < pre.length; i ++){
+    document.getElementById(pre[i].id).addEventListener('click', select, true)
+}
 //id
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
+document.getElementById('twitter').addEventListener('click', twitter);
 document.getElementById("default").addEventListener('click', select, true);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
@@ -45,8 +50,8 @@ function informationLink (){
     parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
 }
 
-function fbPage (){
-    parent.window.open('https://www.facebook.com/CustomCursorExtension');
+function twitter (){
+    parent.window.open('https://twitter.com/CursorCustom');
 }
 
 function gotoOptions(){
@@ -96,6 +101,11 @@ function other() {
 }
 
 function saveOptions() {
+    chrome.tabs.query({}, function (tabs) {
+        for(i=0; i<tabs.length; i++){
+            chrome.tabs.sendMessage(tabs[i].id, {msg: "update"});
+        }
+    });
     _gaq.push(['_trackEvent', selection, 'clicked']);
 
     chrome.storage.sync.set(

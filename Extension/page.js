@@ -1,5 +1,13 @@
 var imgURL = chrome.runtime.getURL("cursors/");
 
+chrome.runtime.onMessage.addListener(
+    function(request, sender, sendResponse) {
+        if (request.msg == "update") {
+            cursor();
+        }
+    });
+
+function cursor() {
 chrome.storage.sync.get('option', function (obj) {
 
     if (obj['option'] == "other") {
@@ -19,4 +27,4 @@ chrome.storage.sync.get('option', function (obj) {
             items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
         }
     }
-});
+});}
